@@ -1,0 +1,478 @@
+/**************************************************************************/
+/*  Base styles                                                           */
+/**************************************************************************/
+
+body html{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+/**
+ * 	content wraper
+ */
+#contentWrapper{
+	width: 100%;
+	height: 100%;
+	min-width: 1188px;
+	min-height: 680px;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+}
+
+
+/**
+ * 	background container
+ */
+#backgroundContainer{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	z-index: 50;
+	background-color: #CCCCCC;
+}
+/**
+ * 	background grid pattern
+ */
+#overlayGridPatern{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 70;
+	background: url('../images/pattern_overlay_grid.png');
+	background-repeat: repeat;	
+}
+
+/**
+ * 	pages content style
+ */
+#pagesContent{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 75;
+}
+
+/**
+ * 	START main menu style
+ */
+
+#mainMenu{
+	width: 220px;
+	position: absolute;
+	left: 70px;
+	z-index: 100;
+}
+#menuArrowUp{
+	width: 220px;
+	height: 74px;
+	background: url('../images/sk_main_arrow_up.png');
+}
+#menuArrowDown{
+	width: 220px;
+	height: 74px;
+	background: url('../images/sk_main_arrow_down.png');
+}
+.genericMenuContainer{
+	width: 220px;
+	background: url('../images/sk_horizontal_bg_repeat.png');
+}
+#logoContainerSK{
+	width: 218px;
+	height: 134px;
+	margin-left: 1px;
+	overflow: hidden;
+	background-repeat: repeat;
+}
+#lineUnderLogo{
+	width: 218px;
+	height: 1px;
+	margin-left: 1px;
+	overflow: hidden;
+	background: url('../images/sk_menu_underline.png');
+}
+
+
+#menuItemsSK{
+	width: 100%;
+	position: absolute;
+	left: 0px;	
+}
+#menuItemsSK ul{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	left: 0px;
+}
+#menuItemsSK ul li a{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	display: block;	
+}
+.menuSeparator{
+	width: 100%;
+	height: 1px;
+	background: url('../images/sk_menu_line.png');
+}
+.menuItemUnselected{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 300;		
+}
+.menuItemSelected{	
+	
+	cursor: default;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+}
+#menuExpandedSK{
+	overflow: hidden;
+}
+#menuExpandedContentSK{
+	position: relative;
+}
+.menuScrollContent{
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	left: 12px;
+	z-index: 114;
+}
+.menuSpacerTop{
+	width: 100%;
+	height: 15px;
+}
+.menuSpacerBottom{
+	width: 100%;
+	height: 35px;
+}
+
+
+
+
+
+
+
+/*
+ * END main menu style
+ */
+
+/**
+ * 	show loading
+ */
+#busyContainer{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	visibility: hidden;
+	z-index: 150;
+}
+.busyContainerOpaque{
+	background-color: #000000;
+}
+#busyContainer div{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	margin: auto;
+}
+/**
+ * 	end show loading
+ */
+
+/* full screen buttons */
+#fullScreenButtons{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	z-index: 97;
+}
+#fs_on{
+	position: absolute;
+	z-index: 98;
+	cursor: pointer;
+}
+#fs_off{
+	position: absolute;
+	z-index: 99;
+	cursor: pointer;
+}
+/* end full screen buttons */
+
+/**
+ * 	start tooltip style
+ */
+#leftBTooltip{
+	background: url('../images/tooltip_left.png');
+	float: left;
+	width: 8px;
+	height: 100%;
+}
+#middleBTooltip{
+	background: url('../images/tooltp_middle.png');
+	float: left;
+	height: 100%;
+}
+#rightBTooltip{
+	background: url('../images/tooltip_right.png');
+	float: left;
+	width: 12px;
+	height: 100%;	
+}
+#tooltipText{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;	
+}
+
+/**
+ * 	end tooltip style
+ */
+
+
+/**************************************************************************/
+/*  generic text colors                                                         */
+/**************************************************************************/
+.textColor01{
+	color: #FFFFFF;
+}
+.textColor02{
+	color: #fff79a;
+}
+.textColor03{
+	color: #000000;
+}
+.backgroundColor01{
+	background-color: #fff79a;
+}
+
+
+/**
+ * GLOBAL STYLES	
+ */
+.yellowButton{
+	padding: 3px 20px;
+	text-decoration: none;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	top: 6px;
+}
+
+
+
+.backButton{
+	margin-left: 30px;
+}
+.hspacer{
+	height: 20px;
+	width: 100%;
+}
+
+.hspacerSmall{
+	height: 15px;
+	width: 100%;
+}
+.hspacerExtraSmall{
+	height: 10px;
+	width: 100%;
+}
+
+.clear-fix:after 
+{
+	height:0;
+	clear:both;
+	content:" ";
+	font-size:0;
+	display: block;
+	visibility: hidden;
+}
+
+.clear-fx{
+	clear:both;
+}
+
+ 
+a{
+	outline: none;
+	text-decoration: none;
+}
+*::selection {
+	background: #000000;
+}
+*::-moz-selection {
+	background: #000000;
+}
+
+p::selection {
+	background: #000000;
+}
+p::-moz-selection {
+	background: #000000;
+}
+span::selection {
+	background: #000000;
+}
+span::-moz-selection {
+	background: #000000;
+}
+
+/**************************************************************************/
+/*  WP related                                                          */
+/**************************************************************************/
+
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.sticky {
+	 color: #fff79a;
+	 background: url('../images/blackBackground.png');
+	 padding: 20px;
+}
+.gallery-caption{
+	color: #FFF;
+	background: url('../images/blackBackground.png');
+}
+.bypostauthor{
+	background-color: #000;
+	color: #fff79a;
+}
+li.bypostauthor { 
+   color: #fff79a;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+
+/*DEFAULT TEXT SETTINGS*/
+.defaultText{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 300;
+}
+.sectionTitle{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+	text-shadow: 1px 1px 1px #000000;
+	margin-top: 25px;			
+}
+.socialText{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 33px;
+	margin-left: 10px;
+	font-weight: 300;
+}
+.columnItemTitle{
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	margin-top: 15px;
+}
+.addressInfo{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;	
+}
+
+
