@@ -1,0 +1,630 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"site_",
+				"site_url"
+			],
+			[
+				"A",
+				"Admin"
+			],
+			[
+				"admi",
+				"admin_options"
+			],
+			[
+				"adm",
+				"admin_options"
+			],
+			[
+				"new",
+				"new_option"
+			],
+			[
+				"ba",
+				"Backbone"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"len",
+				"length_title"
+			],
+			[
+				"catego",
+				"get_categories"
+			],
+			[
+				"getcatego",
+				"get_category"
+			],
+			[
+				"gettempl",
+				"get_template_directory_uri"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"post_ex",
+				"post_excerpt"
+			],
+			[
+				"sale",
+				"sale_price"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"excer",
+				"the_excerpt"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"getthum",
+				"get_the_post_thumbnail"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"upda",
+				"update_post_meta"
+			],
+			[
+				"list",
+				"list_cat"
+			],
+			[
+				"product_",
+				"product_category"
+			],
+			[
+				"pos",
+				"postid"
+			],
+			[
+				"get_post_th",
+				"get_the_post_thumbnail"
+			],
+			[
+				"que",
+				"query"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"Is_user",
+				"is_user_logged_in"
+			],
+			[
+				"gl",
+				"global"
+			],
+			[
+				"mp_pro",
+				"mp_product_prices"
+			],
+			[
+				"current",
+				"current_price"
+			],
+			[
+				"old",
+				"old_price"
+			],
+			[
+				"availa",
+				"availability"
+			],
+			[
+				"curr",
+				"current_price"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"to",
+				"totals"
+			],
+			[
+				"get_current_user",
+				"get_current_user_id"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"get_cu",
+				"get_current_user"
+			],
+			[
+				"produc",
+				"product_frontend_form"
+			],
+			[
+				"get_pos",
+				"get_post"
+			],
+			[
+				"post",
+				"postID"
+			],
+			[
+				"wp_dele",
+				"wp_delete_post"
+			],
+			[
+				"get_post",
+				"get_postdata"
+			],
+			[
+				"query",
+				"query_posts"
+			],
+			[
+				"user_i",
+				"get_current_user_id"
+			],
+			[
+				"jq",
+				"jquery-ui"
+			],
+			[
+				"footer",
+				"footer-links"
+			],
+			[
+				"home",
+				"home_url"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 288.0,
+		"selected_items":
+		[
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"syh",
+				"Set Syntax: HTML"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"fecfi",
+				"Fetch: File"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"synbl",
+				"Set Syntax: Blade"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"syntbl",
+				"Set Syntax: Blade"
+			],
+			[
+				"synp",
+				"Set Syntax: PHP"
+			],
+			[
+				"fe",
+				"Fetch"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Enable Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Romain/Dropbox/Uni/questions.txt",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/Auction_398.txt",
+		"/C/Users/Romain/Documents/WebDev/DigitalMedia1/js/jquery.js",
+		"/C/Users/Romain/Documents/WebDev/DigitalMedia1/index.html",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Romain/Documents/My-Fucking-Trip/application/migrations/2012_11_14_071045_create_options_table.php",
+		"/C/Users/Romain/Documents/My-Fucking-Trip/public/js/vendors/backbone.js",
+		"/C/Users/Romain/Documents/My-Fucking-Trip/public/js/vendors/underscore.js",
+		"/C/Users/Romain/Documents/My-Fucking-Trip/application/models/admin.php",
+		"/C/Users/Romain/Documents/My-Fucking-Trip/application/migrations/2012_12_13_053549_create_options_table.php",
+		"/C/Users/Romain/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Romain/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Romain/Documents/My-Fucking-Trip/my_fucking_trip.sublime-project",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Romain/.ssh/id_rsa.pub",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Users/Romain/Documents/My-Fucking-Trip/.git/HEAD",
+		"/C/Users/Romain/Documents/My-Fucking-Trip/MFT.sublime-project",
+		"/C/Users/Romain/Documents/My_Fucking_Trip/wp-content/themes/my_fucking_trip/style.css",
+		"/C/Users/Romain/Documents/Shop/sass/style.scss",
+		"/C/Users/Romain/Documents/Shop/index.html",
+		"/C/Users/Romain/Documents/Shop/css/buy-now.css",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/functions.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/footer.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/templates/register-form.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/theme-my-login.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/marketpress.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/extends_marketpress.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/register-form.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/function-login.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/theme-my-login.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/class-theme-my-login-ms-signup.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/class-theme-my-login.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/class-theme-my-login-template.php",
+		"/C/Users/Romain/Documents/Hapygo/php/api/listauction.php",
+		"/C/xampp/htdocs/code_final/index.html",
+		"/C/Users/Romain/Documents/backbone-0.9.2.js",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/start.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/init.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/Romain/Documents/Shop/css/style.css",
+		"/C/Users/Romain/Documents/Shop/css/reset.css",
+		"/C/Users/Romain/Documents/jquery-1.8.0.js",
+		"/C/Users/Romain/Documents/Shop/sass/buy-now.css",
+		"/C/xampp/htdocs/Cupboard-Recipes/index.php",
+		"/C/xampp/htdocs/Cupboard-Recipes/sass/style.scss",
+		"/C/xampp/htdocs/Cupboard-Recipes/css/style.css",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/functions 3.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/simple-widget.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/template-functions.php",
+		"/C/Users/Romain/AppData/Local/Temp/Rar$DRa0.694/Soundboard Files/soundboard/functions.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/ajax-cart.js",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/marketpress.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/template-functions.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/functions 2.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/style 3.css",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/extends_marketpress.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/header 2.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/style.css",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/style 2.css",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/includes/class-theme-my-login-template.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/user_orders.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/add_product.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/phpinfo.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/js/need-help.js",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/js/post-screen.js",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/js/store.js",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/themes/icons.css",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/css/marketpress.css",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/js/ajax-cart.js",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/functions 2.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/search.php",
+		"/C/Users/Romain/Documents/theflynn/wp-content/themes/twentyeleven/search.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/nggallery.css",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/searchform.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/single.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/theflynn.js",
+		"/C/Users/Romain/Documents/theflynn/wp-content/themes/theflynn/search.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/wp-config 2.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/extra.css",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/kk-star-ratings/css/kk-ratings.css",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/index.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/user_products.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/edit_product.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/header.php",
+		"/C/Users/Romain/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/profile-builder/front-end/wppb.edit.profile.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-profile/theme-my-profile.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/search.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/jquery-ui-theme/jquery-ui-1.8.21.custom.css",
+		"/C/Users/Romain/Documents/vmall_wp/wp-config.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-bp.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-data.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-gateways.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-importers.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-ms.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-shipping.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-shortcodes.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-stats.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/css/style.css",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/scss/style.scss",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/style_default.css",
+		"/C/xampp/htdocs/Test_SASS/css/style.css",
+		"/C/xampp/htdocs/Test_SASS/sass/style.scss",
+		"/C/xampp/htdocs/Test_SASS/index.html",
+		"/C/Users/Romain/Documents/vmall_wp/wp-admin/post-new.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-admin/admin.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-admin/edit-form-advanced.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-admin/post.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-includes/post.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/plugins-shipping/plugin-template.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/comments.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/page.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-includes/default-filters.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/contact-form-7/modules/textarea.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/contact-form-7/modules/text.php",
+		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/includes/class-theme-my-login-widget.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open files>,<open folders>",
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"commun",
+			"photographes",
+			"Maria",
+			"../assets",
+			" add-on",
+			"Password",
+			"password",
+			"Username",
+			"username",
+			"C:\\Users\\Romain\\Documents\\manga-covers",
+			"user_login",
+			"username",
+			"register for th",
+			"register",
+			"<a href=\"#\"",
+			"<article class=\"right\"",
+			"<article",
+			"style",
+			"mp_list_products",
+			"mp_product_content",
+			"list",
+			"mp_product_list",
+			"product category",
+			"category",
+			"before_widget",
+			"dropdown",
+			"rgba",
+			"mp_cart_link",
+			"cart_cache",
+			"get_cart_contents",
+			"your rece",
+			"orders",
+			"if you have",
+			"orders",
+			"order",
+			"icon",
+			"hover",
+			"css",
+			"#AE0100",
+			"mp_cart_direct_checkout_link",
+			"cart",
+			"customer re",
+			"next",
+			"slider",
+			"content",
+			"product_category",
+			"label-image",
+			"mp_shipping_info",
+			"address",
+			"print_profile_form",
+			"mp_product",
+			"old_price",
+			"current_price",
+			"sale",
+			"inventory",
+			"bold",
+			"c77405",
+			"if",
+			"mp_product",
+			"wp_insert_post",
+			"taxonom",
+			"mp_price",
+			"serialize",
+			"product",
+			"Uncategorized",
+			"categories",
+			"mp_save_product_meta",
+			"mp_sale_price",
+			"mp_product_image_id",
+			"mp_product",
+			"thumbnail",
+			"post_id",
+			"thumbn",
+			"image",
+			"edit_products_columns",
+			"old_columns",
+			"thumbna",
+			"mp_product_image",
+			"image",
+			"thumbna",
+			"page-content",
+			"header_bo",
+			"current_screen",
+			"javasc",
+			"meta_box",
+			"box",
+			"meta_details",
+			"save_product_meta",
+			"mp_save_product_meta",
+			"save_product_meta",
+			"save",
+			"mp_shipping",
+			"mp_price",
+			"product_frontend_form",
+			"li",
+			"wp_head",
+			"wp_enqueue_scripts",
+			"head",
+			"page-con",
+			"links",
+			"add new",
+			"page-con",
+			"forget",
+			"hover",
+			".mp_button_addcart\nhover",
+			".mp_button_addcart\n",
+			"mp_button_addcart\n",
+			"'\n",
+			"watermar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<a href=\"#\" class=\"buy-now\"",
+			"<article class=\"left\"",
+			"<article class=\"right\"",
+			"price",
+			"sale_price",
+			"000000",
+			"td"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.unsaved_changes":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true
+}
