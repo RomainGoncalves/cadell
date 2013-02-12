@@ -11,7 +11,7 @@ function PhotoShootWebsite(){
     this.init = function(){
         addDynamicStyles();
         siteUrl = "http://" + top.location.host.toString();
-        addBusyContainer(); 
+        //addBusyContainer(); 
         addContainers();
         backgroundUtil = new ResizableBackground($('#backgroundContainer'));//showBackCallBack
         backgroundUtil.showBackCallBack(backgroundAnimationComplete);
@@ -453,6 +453,7 @@ function PopUpManager(popupContainer){
      }
      //dismiss popup
      this.dismiss = function(time, efx){
+        console.log($(this));
          isFirstTime = false;
          (time==undefined)?time=800:null;
          (efx==undefined)?efx='easeInExpo':null;  
