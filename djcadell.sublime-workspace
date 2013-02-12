@@ -4,234 +4,246 @@
 		"selected_items":
 		[
 			[
-				"site_",
-				"site_url"
-			],
-			[
-				"A",
-				"Admin"
-			],
-			[
-				"admi",
-				"admin_options"
-			],
-			[
-				"adm",
-				"admin_options"
-			],
-			[
-				"new",
-				"new_option"
+				"impo",
+				"IMPORT"
 			],
 			[
 				"ba",
+				"backbone"
+			],
+			[
+				"re",
+				"recipeView"
+			],
+			[
+				"mo",
+				"Model"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"Reci",
+				"Recipe"
+			],
+			[
+				"Collec",
+				"Collections"
+			],
+			[
+				"Re",
+				"Recipes"
+			],
+			[
+				"coll",
+				"Collection"
+			],
+			[
+				"bac",
 				"Backbone"
 			],
 			[
-				"j",
-				"jQuery"
+				"cu",
+				"Cupboard"
 			],
 			[
-				"len",
-				"length_title"
+				"rec",
+				"Recipe"
 			],
 			[
-				"catego",
-				"get_categories"
+				"vi",
+				"Views"
 			],
 			[
-				"getcatego",
-				"get_category"
+				"redirec",
+				"Redirect"
 			],
 			[
-				"gettempl",
-				"get_template_directory_uri"
+				"html",
+				"htmlentities"
 			],
 			[
-				"inlin",
-				"inline-block"
+				"json_",
+				"json_encode"
 			],
 			[
-				"post_ex",
-				"post_excerpt"
+				"res",
+				"result"
 			],
 			[
-				"sale",
-				"sale_price"
+				"mysqnum",
+				"mysql_num_rows"
 			],
 			[
-				"back",
-				"background-repeat"
+				"backgroun",
+				"background-position"
 			],
 			[
-				"excer",
-				"the_excerpt"
+				"wi",
+				"width"
 			],
 			[
-				"arr",
-				"array"
+				"margin",
+				"margin-top"
 			],
 			[
-				"getthum",
-				"get_the_post_thumbnail"
+				"font",
+				"font-weight"
 			],
 			[
-				"ma",
-				"margin-left"
+				"tex",
+				"text-decoration"
 			],
 			[
-				"upda",
-				"update_post_meta"
+				"text",
+				"text-transform"
 			],
 			[
-				"list",
-				"list_cat"
+				"blog",
+				"bloginfo"
 			],
 			[
-				"product_",
-				"product_category"
+				"base",
+				"baseurl"
 			],
 			[
-				"pos",
-				"postid"
+				"ni",
+				"nivo-controlNav"
 			],
 			[
-				"get_post_th",
-				"get_the_post_thumbnail"
+				"postthum",
+				"the_post_thumbnail"
 			],
 			[
-				"que",
-				"query"
+				"fo",
+				"foreach	foreach …"
 			],
 			[
-				"user",
-				"user_name"
-			],
-			[
-				"Is_user",
-				"is_user_logged_in"
-			],
-			[
-				"gl",
-				"global"
-			],
-			[
-				"mp_pro",
-				"mp_product_prices"
-			],
-			[
-				"current",
-				"current_price"
-			],
-			[
-				"old",
-				"old_price"
-			],
-			[
-				"availa",
-				"availability"
-			],
-			[
-				"curr",
-				"current_price"
-			],
-			[
-				"val",
-				"values"
-			],
-			[
-				"to",
-				"totals"
-			],
-			[
-				"get_current_user",
-				"get_current_user_id"
-			],
-			[
-				"var",
-				"var_dump"
-			],
-			[
-				"get_cu",
-				"get_current_user"
-			],
-			[
-				"produc",
-				"product_frontend_form"
-			],
-			[
-				"get_pos",
-				"get_post"
-			],
-			[
-				"post",
-				"postID"
-			],
-			[
-				"wp_dele",
-				"wp_delete_post"
-			],
-			[
-				"get_post",
-				"get_postdata"
+				"thumb",
+				"the_post_thumbnail"
 			],
 			[
 				"query",
 				"query_posts"
 			],
 			[
-				"user_i",
-				"get_current_user_id"
+				"nivo",
+				"nivo-slider"
 			],
 			[
-				"jq",
-				"jquery-ui"
+				"nio",
+				"nivo-slider"
 			],
 			[
-				"footer",
-				"footer-links"
+				"pro",
+				"product-list"
 			],
 			[
-				"home",
-				"home_url"
+				"con",
+				"content"
+			],
+			[
+				"producttaxo",
+				"product_taxonomy_list_theme"
+			],
+			[
+				"new",
+				"new_query"
+			],
+			[
+				"que",
+				"query"
+			],
+			[
+				"cus",
+				"custom_query"
+			],
+			[
+				"glo",
+				"global"
+			],
+			[
+				"tax",
+				"taxonomy_query"
+			],
+			[
+				"updatepostme",
+				"update_post_meta"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 282,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 127.0,
 		"selected_items":
 		[
 			[
-				"fet",
-				"Fetch: File"
-			],
-			[
-				"syh",
-				"Set Syntax: HTML"
-			],
-			[
-				"packa",
+				"packin",
 				"Package Control: Install Package"
-			],
-			[
-				"fecfi",
-				"Fetch: File"
-			],
-			[
-				"fetc",
-				"Fetch: File"
 			],
 			[
 				"fetch",
 				"Fetch: File"
 			],
 			[
-				"synbl",
+				"fetc",
+				"Fetch: Manage"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"synh",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"secti",
+				"Snippet: blade-section"
+			],
+			[
+				"syb",
+				"Set Syntax: Blade"
+			],
+			[
+				"synphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"syn",
+				"Set Syntax: Blade"
+			],
+			[
+				"synta",
+				"Set Syntax: Blade"
+			],
+			[
+				"fetfi",
+				"Fetch: File"
+			],
+			[
+				"synta bla",
 				"Set Syntax: Blade"
 			],
 			[
@@ -239,31 +251,39 @@
 				"Package Control: Install Package"
 			],
 			[
-				"syntbl",
-				"Set Syntax: Blade"
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
-				"synp",
-				"Set Syntax: PHP"
-			],
-			[
-				"fe",
+				"fet",
 				"Fetch"
 			],
 			[
-				"pac",
+				"inst",
 				"Package Control: Install Package"
 			],
 			[
-				"",
-				"Package Control: Enable Package"
+				"set tas",
+				"Set Syntax: Tasks"
 			],
 			[
-				"package insta",
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -280,134 +300,134 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Romain/Dropbox/Uni/questions.txt",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/Auction_398.txt",
-		"/C/Users/Romain/Documents/WebDev/DigitalMedia1/js/jquery.js",
-		"/C/Users/Romain/Documents/WebDev/DigitalMedia1/index.html",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/footer.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/header.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/index.php",
-		"/C/Users/Romain/Documents/My-Fucking-Trip/application/migrations/2012_11_14_071045_create_options_table.php",
-		"/C/Users/Romain/Documents/My-Fucking-Trip/public/js/vendors/backbone.js",
-		"/C/Users/Romain/Documents/My-Fucking-Trip/public/js/vendors/underscore.js",
-		"/C/Users/Romain/Documents/My-Fucking-Trip/application/models/admin.php",
-		"/C/Users/Romain/Documents/My-Fucking-Trip/application/migrations/2012_12_13_053549_create_options_table.php",
-		"/C/Users/Romain/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/Romain/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Romain/Documents/My-Fucking-Trip/my_fucking_trip.sublime-project",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/Users/Romain/.ssh/id_rsa.pub",
+		"/D/WebDev/djcadell/djcadell.sublime-workspace",
+		"/C/Users/YellowFox2/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/YellowFox2/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/YellowFox2/AppData/Local/Temp/fz3temp-1/styles-rv.css",
+		"/C/Users/YellowFox2/AppData/Local/Temp/fz3temp-1/style 2.css",
+		"/C/Users/YellowFox2/AppData/Local/Temp/fz3temp-1/view-orders.php",
+		"/D/Dropbox/Uni/questions.txt",
+		"/D/WebDev/Hapygo/.gitignore",
+		"/D/WebDev/Hapygo/app/scripts/app.js",
+		"/D/WebDev/Hapygo/app/index.html",
+		"/D/WebDev/Hapygo/index.html",
+		"/D/WebDev/Hapygo/app.js",
+		"/D/WebDev/Hapygo/app/index.php",
+		"/D/WebDev/mumsociety/robots.txt",
+		"/D/WebDev/mumsociety/index.html",
+		"/D/Dropbox/Uni/questions.TODO.txt",
+		"/C/Users/YellowFox2/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/D/WebDev/Cupboard-Recipes/application/routes.php",
+		"/D/WebDev/Cupboard-Recipes/application/views/user/edit.blade.php",
+		"/D/WebDev/Cupboard-Recipes/application/models/user.php",
+		"/D/WebDev/Cupboard-Recipes/application/views/user/show.blade.php",
+		"/D/WebDev/Cupboard-Recipes/application/controllers/users.php",
+		"/D/WebDev/Cupboard-Recipes/public/js/recipes.js",
+		"/D/WebDev/Cupboard-Recipes/public/js/cupboard.js",
+		"/C/Users/YellowFox2/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/WebDev/Cupboard-Recipes/public/js/vendors/backbone.js",
+		"/D/WebDev/Cupboard-Recipes/public/js/vendors/underscore.js",
+		"/C/Users/YellowFox2/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/D/WebDev/Cupboard-Recipes/application/views/recipe/new.blade.php",
+		"/D/WebDev/Cupboard-Recipes/application/views/recipe/edit.blade.php",
+		"/D/WebDev/Cupboard-Recipes/application/config/application.php",
+		"/D/WebDev/Cupboard-Recipes/application/models/recipe.php",
+		"/D/WebDev/Cupboard-Recipes/application/controllers/home.php",
+		"/D/WebDev/Cupboard-Recipes/application/views/master.blade.php",
+		"/D/WebDev/Cupboard-Recipes/application/views/home/index.blade.php",
+		"/D/WebDev/Cupboard-Recipes/application/migrations/2013_01_29_052730_update_table_recipes_add_author_id.php",
+		"/D/WebDev/Cupboard-Recipes/application/migrations/2013_01_16_101500_create_users_table.php",
+		"/D/WebDev/Cupboard-Recipes/application/views/recipe/show.blade.php",
+		"/C/Users/YellowFox2/AppData/Local/Temp/fz3temp-1/comments.php",
+		"/D/WebDev/Cupboard-Recipes/laravel/tests/application/controllers/home.php",
+		"/D/WebDev/Cupboard-Recipes/laravel/auth/drivers/eloquent.php",
+		"/D/WebDev/Cupboard-Recipes/laravel/database/eloquent/model.php",
+		"/D/WebDev/Cupboard-Recipes/laravel/form.php",
+		"/D/WebDev/Cupboard-Recipes/public/css/.gitignore",
+		"/D/WebDev/Cupboard-Recipes/public/css/style.css",
+		"/D/WebDev/Cupboard-Recipes/application/migrations/2013_01_23_041031_create_recipes_table.php",
+		"/D/WebDev/Cupboard-Recipes/.gitignore",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/home/index.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/profile.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/home/profile.blade.php",
+		"/C/Users/YellowFox2/AppData/Local/Temp/fz3temp-3/style.css",
+		"/C/Users/YellowFox2/AppData/Local/Temp/fz3temp-3/wp-config.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/admin/dashboard.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/controllers/dashboard.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/dashboard.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/laravel/html.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/user/index.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/controllers/users.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/login.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/forgotPassword.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/trip/new.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/trip/index.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/controllers/trips.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/user/new.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/public/robots.txt",
+		"/D/YellowFoxMedia/my-fucking-trip/robots.txt",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/signin.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/controllers/home.php",
+		"/D/YellowFoxMedia/my-fucking-trip/laravel/error.php",
+		"/D/YellowFoxMedia/my-fucking-trip/laravel/view.php",
+		"/D/YellowFoxMedia/my-fucking-trip/laravel/redirect.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/config/auth.php",
+		"/D/YellowFoxMedia/my-fucking-trip/laravel/auth/drivers/eloquent.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/user/show.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/laravel/auth.php",
+		"/D/YellowFoxMedia/my-fucking-trip/public/js/vendors/jqvmap/jquery.vmap.js",
+		"/D/YellowFoxMedia/my-fucking-trip/laravel/database/eloquent/model.php",
+		"/D/YellowFoxMedia/my-fucking-trip/Boxfile",
+		"/D/YellowFoxMedia/my-fucking-trip/application/migrations/2012_11_06_115721_update_column_users_to_user_in_table_trips.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/master.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/sass/style.scss",
+		"/D/YellowFoxMedia/my-fucking-trip/laravel/form.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/navigation.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/migrations/2012_11_06_055919_add_column_level_to_tabl_users.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/home/login.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/models/user.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/models/trip.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/migrations/2012_10_30_065122_update_table_trips_add_user_id.php",
+		"/D/YellowFoxMedia/my-fucking-trip/.gitignore",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/trip/show.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/migrations/2012_10_29_120739_update_users_email_length.php",
+		"/D/YellowFoxMedia/my-fucking-trip/laravel/database/schema.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/migrations/2012_10_29_120225_remove_username_unique_on_user_table.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/user/login.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/config/production/database.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/migrations/2012_10_29_080957_create_users_table.php",
+		"/D/YellowFoxMedia/my-fucking-trip/sass/style.sass",
+		"/D/YellowFoxMedia/my-fucking-trip/application/config/application.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/config/database.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/views/trips/index.blade.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/migrations/2012_10_29_045414_create_trips_table.php",
+		"/D/YellowFoxMedia/my-fucking-trip/application/config/production/application.php",
+		"/C/Users/YellowFox2/AppData/Roaming/Sublime Text 2/Packages/User/Blade/ressource.sublime-snippet",
+		"/D/YellowFoxMedia/my-fucking-trip/application/tasks/generate.php",
+		"/D/YellowFoxMedia/my-fucking-trip/public/js/vendors/jquery-1.8.2.js",
 		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/C/Users/Romain/Documents/My-Fucking-Trip/.git/HEAD",
-		"/C/Users/Romain/Documents/My-Fucking-Trip/MFT.sublime-project",
-		"/C/Users/Romain/Documents/My_Fucking_Trip/wp-content/themes/my_fucking_trip/style.css",
-		"/C/Users/Romain/Documents/Shop/sass/style.scss",
-		"/C/Users/Romain/Documents/Shop/index.html",
-		"/C/Users/Romain/Documents/Shop/css/buy-now.css",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/functions.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/footer.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/templates/register-form.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/theme-my-login.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/marketpress.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/extends_marketpress.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/register-form.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/function-login.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/theme-my-login.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/class-theme-my-login-ms-signup.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/class-theme-my-login.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/class-theme-my-login-template.php",
-		"/C/Users/Romain/Documents/Hapygo/php/api/listauction.php",
-		"/C/xampp/htdocs/code_final/index.html",
-		"/C/Users/Romain/Documents/backbone-0.9.2.js",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/index.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/start.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/init.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/.htaccess",
-		"/C/Users/Romain/Documents/Shop/css/style.css",
-		"/C/Users/Romain/Documents/Shop/css/reset.css",
-		"/C/Users/Romain/Documents/jquery-1.8.0.js",
-		"/C/Users/Romain/Documents/Shop/sass/buy-now.css",
-		"/C/xampp/htdocs/Cupboard-Recipes/index.php",
-		"/C/xampp/htdocs/Cupboard-Recipes/sass/style.scss",
-		"/C/xampp/htdocs/Cupboard-Recipes/css/style.css",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/functions 3.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/simple-widget.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/style.css",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/template-functions.php",
-		"/C/Users/Romain/AppData/Local/Temp/Rar$DRa0.694/Soundboard Files/soundboard/functions.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/functions.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/header.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/ajax-cart.js",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/marketpress.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/template-functions.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-2/functions 2.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/style 3.css",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/index 2.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/extends_marketpress.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/header 2.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/style.css",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/style 2.css",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/includes/class-theme-my-login-template.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/user_orders.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/add_product.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/phpinfo.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/js/need-help.js",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/js/post-screen.js",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/js/store.js",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/themes/icons.css",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/css/marketpress.css",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/js/ajax-cart.js",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/functions 2.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/search.php",
-		"/C/Users/Romain/Documents/theflynn/wp-content/themes/twentyeleven/search.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/nggallery.css",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/searchform.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/single.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/theflynn.js",
-		"/C/Users/Romain/Documents/theflynn/wp-content/themes/theflynn/search.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/functions.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/wp-config 2.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/wp-config.php",
-		"/C/Users/Romain/AppData/Local/Temp/fz3temp-1/extra.css",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/kk-star-ratings/css/kk-ratings.css",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/index.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/user_products.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/edit_product.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/header.php",
-		"/C/Users/Romain/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/profile-builder/front-end/wppb.edit.profile.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-profile/theme-my-profile.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/search.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/jquery-ui-theme/jquery-ui-1.8.21.custom.css",
-		"/C/Users/Romain/Documents/vmall_wp/wp-config.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-bp.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-data.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-gateways.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-importers.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-ms.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-shipping.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-shortcodes.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/marketpress-stats.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/css/style.css",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/scss/style.scss",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/style_default.css",
-		"/C/xampp/htdocs/Test_SASS/css/style.css",
-		"/C/xampp/htdocs/Test_SASS/sass/style.scss",
-		"/C/xampp/htdocs/Test_SASS/index.html",
-		"/C/Users/Romain/Documents/vmall_wp/wp-admin/post-new.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-admin/admin.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-admin/edit-form-advanced.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-admin/post.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-includes/post.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/marketpress/marketpress-includes/plugins-shipping/plugin-template.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/comments.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/themes/vmall/page.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-includes/default-filters.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/contact-form-7/modules/textarea.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/contact-form-7/modules/text.php",
-		"/C/Users/Romain/Documents/vmall_wp/wp-content/plugins/theme-my-login/includes/class-theme-my-login-widget.php"
+		"/D/YellowFoxMedia/my-fucking-trip/my_fucking_trip.sublime-project",
+		"/C/Users/YellowFox2/.ssh/id_rsa.pub",
+		"/D/YellowFoxMedia/my-fucking-trip/api/controllers/User.php",
+		"/D/YellowFoxMedia/my-fucking-trip/api/controllers/Database.php",
+		"/D/YellowFoxMedia/my-fucking-trip/api/models/User.php",
+		"/D/YellowFoxMedia/my-fucking-trip/api/index.php",
+		"/D/YellowFoxMedia/Vmall/wp-content/plugins/marketpress/marketpress.php",
+		"/D/YellowFoxMedia/my-fucking-trip/api/models/Users.php",
+		"/D/YellowFoxMedia/my-fucking-trip/api/models/UserAdd.php",
+		"/D/YellowFoxMedia/my-fucking-trip/api/controllers/UserAdd.php",
+		"/C/xampp/php/php.ini",
+		"/D/YellowFoxMedia/my-fucking-trip/todo.php",
+		"/D/YellowFoxMedia/my-fucking-trip/login.php",
+		"/D/YellowFoxMedia/my-fucking-trip/index2.php",
+		"/D/YellowFoxMedia/my-fucking-trip/apicaller.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/YellowFoxMedia/my-fucking-trip/index.html",
+		"/D/YellowFoxMedia/my-fucking-trip/my_fucking_trip.sublime-workspace",
+		"/D/YellowFoxMedia/my-fucking-trip/js/jquery.js",
+		"/D/YellowFoxMedia/Vmall/.htaccess",
+		"/C/Users/YellowFox2/.ssh/github_rsa.pub",
+		"/D/YellowFoxMedia/beanstalk"
 	],
 	"find":
 	{
@@ -418,8 +438,7 @@
 		"height": 0.0,
 		"where_history":
 		[
-			"<open files>,<open folders>",
-			"<open files>"
+			"<project>"
 		]
 	},
 	"find_state":
@@ -427,115 +446,94 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"commun",
-			"photographes",
-			"Maria",
-			"../assets",
-			" add-on",
-			"Password",
-			"password",
+			"\"",
+			"a",
+			"./assets/",
+			"Cupboard.Views.Recipes",
+			"$",
+			"name",
+			">\n",
+			"create",
+			"Title",
+			"title",
+			"Recipe",
+			"recipe",
+			"Title",
+			"title",
+			"Title",
+			"title",
+			"Title",
+			"title",
+			"making_time",
+			"Title",
+			"title",
+			"username",
+			" class=\"\"",
+			"block",
+			"left clearfix",
+			"clearfix",
+			"jquery-ui-1.9.1.custom.min.js",
+			"jQuery",
+			"f_elem_city",
+			"4",
+			"3",
+			"2",
+			"1",
+			"0",
+			"hidden",
+			" false,",
+			"'rating', ",
+			"radio",
+			" a",
+			"radio",
+			"input-medium",
+			"destination",
+			"title",
+			"dashboard",
+			"d class=\"small\"",
+			"make",
+			"with_",
+			"span",
+			"awesome",
+			"h3",
+			";",
+			"}\n",
+			"td",
+			"update",
+			"span",
+			"trip",
+			"`",
+			"change",
 			"Username",
 			"username",
-			"C:\\Users\\Romain\\Documents\\manga-covers",
-			"user_login",
-			"username",
-			"register for th",
-			"register",
-			"<a href=\"#\"",
-			"<article class=\"right\"",
-			"<article",
-			"style",
-			"mp_list_products",
-			"mp_product_content",
-			"list",
-			"mp_product_list",
-			"product category",
-			"category",
-			"before_widget",
-			"dropdown",
-			"rgba",
-			"mp_cart_link",
-			"cart_cache",
-			"get_cart_contents",
-			"your rece",
-			"orders",
-			"if you have",
-			"orders",
-			"order",
-			"icon",
-			"hover",
-			"css",
-			"#AE0100",
-			"mp_cart_direct_checkout_link",
-			"cart",
-			"customer re",
-			"next",
-			"slider",
-			"content",
-			"product_category",
-			"label-image",
-			"mp_shipping_info",
-			"address",
-			"print_profile_form",
-			"mp_product",
-			"old_price",
-			"current_price",
-			"sale",
-			"inventory",
-			"bold",
-			"c77405",
-			"if",
-			"mp_product",
-			"wp_insert_post",
-			"taxonom",
-			"mp_price",
-			"serialize",
-			"product",
-			"Uncategorized",
-			"categories",
-			"mp_save_product_meta",
-			"mp_sale_price",
-			"mp_product_image_id",
-			"mp_product",
-			"thumbnail",
-			"post_id",
-			"thumbn",
-			"image",
-			"edit_products_columns",
-			"old_columns",
-			"thumbna",
+			"description",
+			"title",
+			"trips",
+			"private",
+			"access_level",
+			"first_name",
+			"Username or Password is invalid",
+			"mft",
+			"./assets/",
+			"<script>window.jQuery || document.write('<script src=\"js/vendor/jquery-1.8.2.min.js\"><\\/script>')</script>",
+			"        <",
+			"browse prod",
+			"browse pro",
+			"28",
+			"mp_categories_widget",
+			"widget",
+			"prima",
+			"mp_buy_button",
+			";\n",
+			"white",
+			"720",
 			"mp_product_image",
-			"image",
-			"thumbna",
-			"page-content",
-			"header_bo",
-			"current_screen",
-			"javasc",
-			"meta_box",
-			"box",
-			"meta_details",
-			"save_product_meta",
-			"mp_save_product_meta",
-			"save_product_meta",
-			"save",
-			"mp_shipping",
-			"mp_price",
-			"product_frontend_form",
-			"li",
-			"wp_head",
-			"wp_enqueue_scripts",
-			"head",
-			"page-con",
-			"links",
-			"add new",
-			"page-con",
-			"forget",
-			"hover",
-			".mp_button_addcart\nhover",
-			".mp_button_addcart\n",
-			"mp_button_addcart\n",
-			"'\n",
-			"watermar"
+			"product_taxonomy_list_theme",
+			"list_pro",
+			"mp_cart_form",
+			"website",
+			"//$",
+			"single"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -543,13 +541,7 @@
 		"regex": false,
 		"replace_history":
 		[
-			"<a href=\"#\" class=\"buy-now\"",
-			"<article class=\"left\"",
-			"<article class=\"right\"",
-			"price",
-			"sale_price",
-			"000000",
-			"td"
+			"paypal"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -560,8 +552,35 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -596,10 +615,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.unsaved_changes":
-	{
-		"height": 25.0
-	},
 	"replace":
 	{
 		"height": 62.0
@@ -610,21 +625,161 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"recipes.j",
+				"public/js/recipes.js"
+			],
+			[
+				"master",
+				"application/views/master.blade.php"
+			],
+			[
+				"routes",
+				"application/routes.php"
+			],
+			[
+				"model/re",
+				"application/models/recipe.php"
+			],
+			[
+				"view/usered",
+				"application/views/user/edit.blade.php"
+			],
+			[
+				"views/ed",
+				"application/views/recipe/edit.blade.php"
+			],
+			[
+				"recipeedi",
+				"application/views/recipe/edit.blade.php"
+			],
+			[
+				"modelus",
+				"application/models/user.php"
+			],
+			[
+				"appli",
+				"application/config/application.php"
+			],
+			[
+				"views/user",
+				"application/views/user/show.blade.php"
+			],
+			[
+				"migra",
+				"application/migrations/2013_01_29_052730_update_table_recipes_add_author_id.php"
+			],
+			[
+				"modelre",
+				"application/models/recipe.php"
+			],
+			[
+				"model/u",
+				"application/models/user.php"
+			],
+			[
+				"migratu",
+				"application/migrations/2013_01_16_101500_create_users_table.php"
+			],
+			[
+				"recipenew",
+				"application/views/recipe/new.blade.php"
+			],
+			[
+				"recipeshow",
+				"application/views/recipe/show.blade.php"
+			],
+			[
+				"usersho",
+				"application/views/user/show.blade.php"
+			],
+			[
+				"viewshome",
+				"application/views/home/index.blade.php"
+			],
+			[
+				"home",
+				"laravel/tests/application/controllers/home.php"
+			],
+			[
+				"model",
+				"laravel/database/eloquent/model.php"
+			],
+			[
+				"eloqu",
+				"laravel/auth/drivers/eloquent.php"
+			],
+			[
+				"show",
+				"application/views/recipe/show.blade.php"
+			],
+			[
+				"form",
+				"laravel/form.php"
+			],
+			[
+				"hml",
+				"laravel/html.php"
+			],
+			[
+				"controllerhome",
+				"application/controllers/home.php"
+			],
+			[
+				"redi",
+				"laravel/redirect.php"
+			],
+			[
+				"view",
+				"laravel/view.php"
+			],
+			[
+				"error",
+				"laravel/error.php"
+			],
+			[
+				"user/",
+				"application/views/user/show.blade.php"
+			],
+			[
+				"auth",
+				"application/config/auth.php"
+			],
+			[
+				"jqvm",
+				"public/js/vendors/jqvmap/jquery.vmap.js"
+			],
+			[
+				"eloque",
+				"laravel/auth/drivers/eloquent.php"
+			],
+			[
+				"html",
+				"laravel/html.php"
+			],
+			[
+				"schem",
+				"laravel/database/schema.php"
+			],
+			[
+				"trip/sho",
+				"application/views/trip/show.blade.php"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 187.0,
+	"side_bar_width": 191.0,
 	"status_bar_visible": true
 }
