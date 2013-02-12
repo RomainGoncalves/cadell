@@ -6,6 +6,7 @@ $view->checkPreview();
 $page = get_page(get_the_ID());
 $postContent = $page->post_content;
 $pageTitle = $page->post_title;
+var_dump(get_the_ID());
 $backgroundImage = $view->getPageFeaturedBackgroundImage(get_the_ID());
 
 $homeOptions = $view->getOptionsGroup('homeOptions');

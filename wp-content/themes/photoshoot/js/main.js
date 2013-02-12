@@ -11,7 +11,7 @@ function PhotoShootWebsite(){
     this.init = function(){
         addDynamicStyles();
         siteUrl = "http://" + top.location.host.toString();
-        //addBusyContainer(); 
+        addBusyContainer(); 
         addContainers();
         backgroundUtil = new ResizableBackground($('#backgroundContainer'));//showBackCallBack
         backgroundUtil.showBackCallBack(backgroundAnimationComplete);
