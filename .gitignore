@@ -10,6 +10,6 @@ sitemap.xml
 wp-content/cache/
 wp-content/backups/
 sitemap.xml.gz
-logs
+logs/
 *.sublime-project
 *.sublime-workspace
