@@ -4,3 +4,7 @@ div#menuArrowUp, div#menuArrowDown, div.menuSpacerTop, div.menuSpacerBottom{
 div.genericMenuContainer div.menuSpacerTop{
 	background: none;
 }
+p.addressInfo a{
+	color: white;
+	text-decoration: underline;
+}
