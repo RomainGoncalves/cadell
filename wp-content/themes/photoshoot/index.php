@@ -38,7 +38,8 @@ $logo = $view->getThemeLogoURL();
         		</div>
         	</div>
         	
-        	<div id="menuArrowDown"></div>
+        	<div id="menuArrowDown">
+                <?php DISPLAY_ACURAX_ICONS(); ?></div>
         	<div class="menuSpacerBottom"></div>        	
         	
         </div>

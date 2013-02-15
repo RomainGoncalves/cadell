@@ -1,0 +1,6 @@
+div#menuArrowUp, div#menuArrowDown, div.menuSpacerTop, div.menuSpacerBottom{
+	background: url('../images/sk_horizontal_bg_repeat.png') ;
+}
+div.genericMenuContainer div.menuSpacerTop{
+	background: none;
+}
