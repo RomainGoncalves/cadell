@@ -57,36 +57,6 @@ float:left;
     width: 36px;
 	margin-left:1px;
 }
-#floating-social-media-icon
-{
-background: url("images/plugin_page_bg.png") repeat-x scroll 0 0 #FFFFFF;
-}
-#plugin_page_links
-{
-    background: url("images/menu_bg.png") repeat scroll 0 0 transparent;
-    border-radius: 8px 8px 8px 8px;
-    color: #75AA00;
-    min-height: 25px;
-    padding: 5px;
-    text-align: center;
-}
-#floating-social-media-icon .plugin-title
-{
-    background: url("images/from.png") no-repeat scroll 10% 94% transparent;
-}
-#plugin_page_links a
-{
-    border-right: 1px solid white;
-    color: white;
-    font-family: arial;
-    font-size: 13px;
-    font-weight: bold;
-    margin-left: -5px;
-    padding: 2px 6px 2px 3px;
-}
-#plugin_page_links a:hover
-{
-}
 #acx_help_page
 {
 }

@@ -4,7 +4,7 @@ Donate link:http://www.acurax.com/products/floating-social-media-icon-plugin-wor
 
 Tags: social media,social,social media widget,social media icon,socialmedia,pinterest,social icon,social floating icon,social profiles,floating social media button,twitter facebook,social media button,google plus,google+
 Requires at least: 2.8
-Tested up to: 3.5
+Tested up to: 3.5.1
 Stable tag: trunk
 
 Easy 2 Use Plugin 2 Show SocialMedia Icons That Floats,Can Configure Social Icon Design,Order & Size at Plugin Settings, Suport Widget & Shortcode
@@ -205,6 +205,15 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 1.2 =
+* February 20, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* Added Option to disable highlighting menu on admin area
+* Added Option to disable highlighting plugin on plugin list
+* Improved CSS Styling
+* Improved Programming Structure
+* Stable Release
+
+
 = 1.1.5 =
 * November 29, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
 * Added Misc settings.
@@ -277,6 +286,14 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.2 =
+* February 20, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* Added Option to disable highlighting menu on admin area
+* Added Option to disable highlighting plugin on plugin list
+* Improved CSS Styling
+* Improved Programming Structure
+* Stable Release
 
 = 1.1.5 =
 * November 29, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)

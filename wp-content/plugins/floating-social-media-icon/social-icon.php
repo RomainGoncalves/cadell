@@ -52,6 +52,7 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 	update_option('acx_si_feed', $acx_si_feed);
 
 	$social_icon_array_order = get_option('social_icon_array_order');
+	$acx_si_fsmi_hide_advert = get_option('acx_si_fsmi_hide_advert');
 
 		?>
 		<div class="updated"><p><strong><?php _e('Acurax Floating Social Icons Settings Saved!.' ); ?></strong></p></div>
@@ -62,7 +63,7 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 $acx_si_installed_date = get_option('acx_si_installed_date');
 if ($acx_si_installed_date=="") { $acx_si_installed_date = time();
 update_option('acx_si_installed_date', $acx_si_installed_date);
-}
+								}
 	$acx_si_theme = get_option('acx_si_theme');
 	$acx_si_twitter = get_option('acx_si_twitter');
 	$acx_si_facebook = get_option('acx_si_facebook');
@@ -75,11 +76,13 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 	$acx_si_icon_size = get_option('acx_si_icon_size');
 	$acx_si_display = get_option('acx_si_display');
 	$social_icon_array_order = get_option('social_icon_array_order');
+	$acx_si_fsmi_hide_advert = get_option('acx_si_fsmi_hide_advert');
 	// Setting Defaults
 	if ($acx_si_credit == "") {	$acx_si_credit = "no"; }
 	if ($acx_si_icon_size == "") { $acx_si_icon_size = "32"; }
 	if ($acx_si_display == "") { $acx_si_display = "auto"; }
 	if ($acx_si_theme == "") { $acx_si_theme = "1"; }
+	if ($acx_si_fsmi_hide_advert == "") { $acx_si_fsmi_hide_advert = "no"; }
 
 
 	if ($social_icon_array_order == "") 
@@ -87,7 +90,7 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 		$social_icon_array_order = array(0,1,2,3,4,5,6);
 		$social_icon_array_order = serialize($social_icon_array_order);
 		update_option('social_icon_array_order', $social_icon_array_order);
-		$acx_fsmi_si_current_version = "1.1.5";  // Current Version
+		$acx_fsmi_si_current_version = "1.2";  // Current Version
 		update_option('acx_fsmi_si_current_version', $acx_fsmi_si_current_version);
 	} else 
 	{
@@ -110,7 +113,6 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 		// Counting and Adding New Keys Ends Here
 	} //Normal page display else
 } //Main else
-
 ?>
 
 	<!--  To Update Drag and Drop -->
@@ -157,11 +159,15 @@ if ($acx_si_fsmi_acx_service_banners != "no") { ?>
 <a href="http://www.acurax.com/social-media-marketing-optimization/facebook-page-design.php" target="_blank">Facebook Page Design</a>
 </p>
 <?php } ?>
+<?php
+if($acx_si_fsmi_hide_advert == "no")
+{
+?>
 <div id="acx_fsmi_premium">
 <a style="margin: 8px 0px 0px 10px; float: left; font-size: 16px; font-weight: bold;" href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin&utm_medium=highlight&utm_campaign=fsmi" target="_blank">Fully Featured - Premium Floating Social Media Icon</a>
 <a style="margin: -14px 0px 0px 10px; float: left;" href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin&utm_medium=highlight_yellow&utm_campaign=fsmi" target="_blank"><img src="<?php echo plugins_url('images/yellow.png', __FILE__);?>"></a>
 </div> <!-- acx_fsmi_premium -->
-
+<?php } ?>
 <form name="acurax_si_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
 	<input type="hidden" name="acurax_social_icon_hidden" value="Y">
 	<?php
@@ -432,15 +438,18 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 <?php if($_GET["status"] == "updated") { ?>
 <div style="display: block; background-color: rgb(255, 255, 224); padding: 10px; border: 1px solid rgb(230, 219, 85); font-family: arial; font-size: 13px; font-weight: bold; text-align: center; border-radius: 10px 10px 10px 10px;">Acurax Floating Social Media Icon Update Successfully Completed - Thank You</div>
 <?php
-$acx_fsmi_si_current_version = "1.1.5";  // Current Version
+$acx_fsmi_si_current_version = "1.2";  // Current Version
 update_option('acx_fsmi_si_current_version', $acx_fsmi_si_current_version);
 } ?>
 <hr/>
-<?php socialicons_comparison(1); ?> 
-
-<?php acurax_optin(); ?>
+<?php
+if($acx_si_fsmi_hide_advert == "no")
+{
+socialicons_comparison(1); ?> 
+<?php acurax_optin(); 
+} ?>
 <br>
 	<p class="widefat" style="padding:8px;width:99%;">
-		Something Not Working Well? Have a Doubt? Have a Suggestion? - <a href="http://www.acurax.com" target="_blank">Contact us now</a> | Need a Custom Designed Theme For your Blog or Website? Need a Custom Header Image? - <a href="http://www.acurax.com" target="_blank">Contact us now</a>
+		Something Not Working Well? Have a Doubt? Have a Suggestion? - <a href="http://www.acurax.com/contact.php" target="_blank">Contact us now</a> | Need a Custom Designed Theme For your Blog or Website? Need a Custom Header Image? - <a href="http://www.acurax.com/contact.php" target="_blank">Contact us now</a>
 	</p>
 </div>
