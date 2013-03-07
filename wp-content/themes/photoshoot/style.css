@@ -13,3 +13,7 @@ Version: 1.0
 @import url("css/sections.css");
 @import url("css/jquery.mCustomScrollbar.css");
 @import url("css/djcadell.css");
+
+img.home{
+	border: 7px solid #FFFFFF;
+}

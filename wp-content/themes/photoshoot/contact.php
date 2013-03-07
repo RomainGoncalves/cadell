@@ -109,6 +109,36 @@ $socialOther = (isset($contactOptions['socialOther']))?$contactOptions['socialOt
                 <p id="thankYouText"><?php _e('Your message has been sent!', 'Photoshoot');?></p>
                 <div class="formButton"><a id="sendBTN" class="yellowButton backgroundColor01 textColor03 alignright" href="" title="contact"><?php _e('SEND', 'Photoshoot');?></a></div>                                    
                 <div class="clear-fx"></div>
+
+                <p class="sectionTitle textColor02">Request<span class="textColor01"> booking</span></p>
+                <div class="sectionHline"></div>
+                <div class="hspacer"></div>
+                
+                <p class="mandatoryFields"><?php _e('All fields are mandatory', 'Photoshoot');?></p>
+                <!--contact form-->
+                <form name="contact" class="contactForm" action="">
+                    <div id="inputsArea">                        
+                        <div><input type="text" id="name" class="textInput" value="<?php _e('Your name...', 'Photoshoot');?>" /></div>
+                        <div class="hspacer"></div>
+                        <div><input type="text" id="email" class="textInput" value="<?php _e('Your email...', 'Photoshoot');?>" /></div>
+                        <div class="hspacer"></div>
+                        <div><input type="text" id="email" class="textInput" value="<?php _e('Your email...', 'Photoshoot');?>" /></div>
+                        <div class="hspacer"></div>
+                        <div><input type="text" id="email" class="textInput" value="<?php _e('Your email...', 'Photoshoot');?>" /></div>
+                        <div class="hspacer"></div>
+                        <div><input type="text" id="email" class="textInput" value="<?php _e('Your email...', 'Photoshoot');?>" /></div>
+                    </div>
+                    <div id="textArea">
+                        <textarea id="txt" rows="0" cols="0" id="message"><?php _e('Your message...', 'Photoshoot');?></textarea>   
+                    </div>
+                    <div class="clear-fx"></div>
+                </form>
+                <!--/contact form-->
+                
+                <div class="hspacer"></div>
+                <p id="thankYouText"><?php _e('Your message has been sent!', 'Photoshoot');?></p>
+                <div class="formButton"><a id="sendBTN" class="yellowButton backgroundColor01 textColor03 alignright" href="" title="contact"><?php _e('SEND', 'Photoshoot');?></a></div>                                    
+                <div class="clear-fx"></div>
             </div>           
         </div> 
         <!--/contact main container-->
