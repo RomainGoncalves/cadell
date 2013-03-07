@@ -17,6 +17,8 @@
     
     <link href='http://fonts.googleapis.com/css?family=Signika:700' rel='stylesheet' type='text/css' />
 
+    <link rel="shortcut icon" href="<?php echo get_bloginfo('template_url') ; ?>/images/favicon.ico" type="image/x-icon" />
+
 <?php wp_head(); ?>
 
 <?php
