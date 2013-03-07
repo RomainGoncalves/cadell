@@ -112,7 +112,4 @@ $socialOther = (isset($contactOptions['socialOther']))?$contactOptions['socialOt
             </div>           
         </div> 
         <!--/contact main container-->
-      
-      
-    
 </div>
