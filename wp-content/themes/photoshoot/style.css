@@ -17,3 +17,23 @@ Version: 1.0
 img.home{
 	border: 7px solid #FFFFFF;
 }
+.bookingForm{
+	margin-top: 17px ;
+}
+.bookingForm #inputsArea{
+	width: auto ;
+}
+.bookingForm #inputsArea div{
+	display: inline;
+	float: left;
+	margin-right: 34px;
+}
+.bookingForm #inputsArea div:nth-child(3), .bookingForm #inputsArea div:nth-child(7){
+	margin-right: 0 ;
+}
+.bookingForm #textArea{
+	margin-top: 23px;
+}
+.bookingForm #textArea textarea{
+	width: 740px;
+}
