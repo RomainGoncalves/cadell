@@ -26,7 +26,7 @@ img.home{
 .bookingForm #inputsArea div{
 	display: inline;
 	float: left;
-	margin-right: 34px;
+	margin-right: 32px;
 }
 .bookingForm #inputsArea div:nth-child(3), .bookingForm #inputsArea div:nth-child(7){
 	margin-right: 0 ;

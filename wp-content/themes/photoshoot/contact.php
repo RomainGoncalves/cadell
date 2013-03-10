@@ -60,12 +60,11 @@ $socialOther = (isset($contactOptions['socialOther']))?$contactOptions['socialOt
                     </div>
                     <div class="clear-fx"></div>
                 </form>
-                <!--/contact form-->
                 
                 <div class="hspacer"></div>
                 <p id="thankYouText"><?php _e('Your message has been sent!', 'Photoshoot');?></p>
-                <div class="formButton"><a id="sendBTN" class="yellowButton backgroundColor01 textColor03 alignright" href="" title="contact"><?php _e('SEND', 'Photoshoot');?></a></div>                                    
-                <div class="clear-fx"></div>
+                <div class="formButton"><a id="sendBookingBTN" class="yellowButton backgroundColor01 textColor03 alignright" href="" title="contact"><?php _e('SEND', 'Photoshoot');?></a></div>    
+                <!--/contact form-->
 
                 <p class="sectionTitle textColor02"><?php echo $secondTitle['first'];?><span class="textColor01"><?php echo $secondTitle['last'];?></span></p>
                 <div class="sectionHline"></div>

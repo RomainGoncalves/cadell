@@ -1139,6 +1139,8 @@ function ContactSection(sectionUI){
             var valid = true;
             for(var i=0;i<fields.length;i++){
                 if(!fields[i].valid){
+
+                    console.log($(this).find('input')) ;
                     valid = false;
                     fields[i].ui.addClass('errorField');
                 }
@@ -1181,6 +1183,9 @@ function ContactSection(sectionUI){
     var fields;
     function initFieldsBehavior(){
         fields = [];
+        fields.push({ui: sectionUI.find('#name'), type: "input", initialMessage: sectionUI.find('#name').val(), valid: false});
+        fields.push({ui: sectionUI.find('#email'), type: "email", initialMessage: sectionUI.find('#email').val(), valid: false});
+        fields.push({ui: sectionUI.find('#txt'), type: "txt", initialMessage: sectionUI.find('#txt').html(), valid: false});
         fields.push({ui: sectionUI.find('#name'), type: "input", initialMessage: sectionUI.find('#name').val(), valid: false});
         fields.push({ui: sectionUI.find('#email'), type: "email", initialMessage: sectionUI.find('#email').val(), valid: false});
         fields.push({ui: sectionUI.find('#txt'), type: "txt", initialMessage: sectionUI.find('#txt').html(), valid: false});
