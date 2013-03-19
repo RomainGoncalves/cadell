@@ -3,7 +3,6 @@ div#better_calendar{
 }
 div#better_calendar table td{
 	border-top: none;
-	padding: 1px ;
 }
 table#better_calendar_events{
 	float: left;

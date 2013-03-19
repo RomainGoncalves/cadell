@@ -1,7 +1,7 @@
 (function ($) {
 	"use strict";
-	$(function () {
 
+	$(document).ready(function() {
 
 		function highlightDate(date){
 			var dates = new Array() ;
@@ -36,7 +36,7 @@
             }
 
 		}
-
+		
 		$('#better_calendar').datepicker({
 			dateFormat: "dd/mm/yy",
 			firstDay: 1,

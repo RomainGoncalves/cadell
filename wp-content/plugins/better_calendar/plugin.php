@@ -157,8 +157,9 @@ class BetterCalendar {
 	public function register_plugin_scripts() {
 	
 		//wp_enqueue_script('backbone', $src = false, $deps = array('underscore'), $ver = false, $in_footer = false) ; //TODO
-		wp_enqueue_script( 'better_calendar-plugin-script', plugins_url( 'better_calendar/js/display.js' ), array('jquery') );
-		wp_enqueue_script('jquery-ui-datepicker', '', $deps = array('jquery'), '', $in_footer = false) ;
+		//wp_enqueue_script( 'jquery-1.9.1', $src = '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js', '', $ver = '1.9.0', $in_footer = true );
+		wp_enqueue_script( 'better_calendar-plugin-script', plugins_url( 'better_calendar/js/display.js' ), array('jquery'), '', true );
+		wp_enqueue_script('jquery-ui-datepicker', '', $deps = array('jquery'), '', $in_footer = true) ;
 	
 	} // end register_plugin_scripts
 	
