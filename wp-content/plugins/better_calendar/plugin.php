@@ -157,9 +157,8 @@ class BetterCalendar {
 	public function register_plugin_scripts() {
 	
 		//wp_enqueue_script('backbone', $src = false, $deps = array('underscore'), $ver = false, $in_footer = false) ; //TODO
-		//wp_enqueue_script( 'jquery-1.9.1', $src = '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js', '', $ver = '1.9.0', $in_footer = true );
-		wp_enqueue_script( 'better_calendar-plugin-script', plugins_url( 'better_calendar/js/display.js' ), array('jquery'), '', true );
-		wp_enqueue_script('jquery-ui-datepicker', '', $deps = array('jquery'), '', $in_footer = true) ;
+		wp_enqueue_script( 'better_calendar-plugin-script', plugins_url( 'better_calendar/js/display.js' ), array('jquery') );
+		wp_enqueue_script('jquery-ui-datepicker', '', $deps = array('jquery'), '', $in_footer = false) ;
 	
 	} // end register_plugin_scripts
 	
@@ -236,24 +235,16 @@ class BetterCalendar {
 		$events = new WP_Query($args) ;
 
 		$output = '<div id="better_calendar"></div>' ;
-		$output .= '<table id="better_calendar_events">' ;
-		$output .= '<thead><tr><td>Event</td><td>Date</td><td>Where</td></tr></thead>' ;
+		$output .= '<div id="better_calendar_events">' ;
 		//var_dump($events_>posts);
 		//Loop through events
 		foreach ($events->posts as $key => $event) {
 
 			$meta = get_post_meta($event->ID) ;
+			
+			$output .= '<div class="event '.str_replace('/', '-', $meta['event_details_start_date'][0]).'">' ;
 
-			//var_dump(has_post_thumbnail($event->ID)) ;
-
-			$output .= '<tr class="'.str_replace('/', '-', $meta['event_details_start_date'][0]).'">
-							<td class="event">'.$event->post_title.'</td>
-							<td class="event_date">'.$meta['event_details_start_date'][0].'</td>
-							<td>'.$meta['event_details_where'][0].'</td>
-						</tr>' ;
-
-			$output .=	'<tr class="row_desc">
-							<td class="event_description" colspan="3">' ;
+			$output .= '<h2>'.$event->post_title.'</h2><div class="event_date"><span class="event_date_start">'.$meta['event_details_start_date'][0].'</span> - <span class="event_date_start">'.$meta['event_details_end_date'][0].'</span><span class="event_where">@ '.$meta['event_details_where'][0].'</span></div>' ;
 
 			if(has_post_thumbnail($event->ID)){
 
@@ -261,27 +252,44 @@ class BetterCalendar {
 
 			}
 
-			$output .= '<p>'.$event->post_content.'</p>' ;
+			$output .= '<p class="event_description">'.$event->post_content.'</p>' ;
+
+			$output .= '<table class="event_details">
+			<thead>
+				<th>Starts</th>
+				<th>Ends</th>
+				<th>Entry Fee</th>
+				<th>RSVP</th>
+			</thead>
+			<tbody>
+			<tr>' ;
 
 			if($meta['event_details_starts_at'][0]){
 
-				$output .= '<span class="starts">Starts: <em class="time">'.$meta['event_details_starts_at'][0].'</em></span>' ;
+				$output .= '<td>'.$meta['event_details_starts_at'][0].'</td>' ;
+
+			}
+			if($meta['event_details_ends_at'][0]){
+
+				$output .= '<td>'.$meta['event_details_ends_at'][0].'</td>' ;
 
 			}
 			if($meta['event_details_entry_fee'][0]){
 
-				$output .= '<span class="fees">Entry Fee: <em class="amount">$'.$meta['event_details_entry_fee'][0].'</em></span>' ;
+				$output .= '<td>$'.$meta['event_details_entry_fee'][0].'</td>' ;
 
 			}
 			if($meta['event_details_rsvp'][0]){
 
-				$output .= '<span class="rsvp">Please RSVP</span>' ;
+				$output .= '<td>Yes</td>' ;
 
 			}
+
+			$output .= '</tr></tbody></table></div>' ;
 						
 		}
 
-		$output .= '</td></tr></table>' ;
+		$output .= '</div>' ;
 
 		wp_reset_query() ;
 

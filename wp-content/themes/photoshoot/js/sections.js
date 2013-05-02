@@ -1139,8 +1139,6 @@ function ContactSection(sectionUI){
             var valid = true;
             for(var i=0;i<fields.length;i++){
                 if(!fields[i].valid){
-
-                    console.log($(this).find('input')) ;
                     valid = false;
                     fields[i].ui.addClass('errorField');
                 }
@@ -1186,13 +1184,6 @@ function ContactSection(sectionUI){
         fields.push({ui: sectionUI.find('#name'), type: "input", initialMessage: sectionUI.find('#name').val(), valid: false});
         fields.push({ui: sectionUI.find('#email'), type: "email", initialMessage: sectionUI.find('#email').val(), valid: false});
         fields.push({ui: sectionUI.find('#txt'), type: "txt", initialMessage: sectionUI.find('#txt').html(), valid: false});
-        fields.push({ui: sectionUI.find('#name'), type: "input", initialMessage: sectionUI.find('#name').val(), valid: false});
-        fields.push({ui: sectionUI.find('#email'), type: "email", initialMessage: sectionUI.find('#email').val(), valid: false});
-        fields.push({ui: sectionUI.find('#txt'), type: "txt", initialMessage: sectionUI.find('#txt').html(), valid: false});
-        fields.push({ui: sectionUI.find('#venue'), type: "input", initialMessage: sectionUI.find('#venue').html(), valid: false});
-        fields.push({ui: sectionUI.find('#date'), type: "input", initialMessage: sectionUI.find('#date').html(), valid: false});
-        fields.push({ui: sectionUI.find('#offer'), type: "input", initialMessage: sectionUI.find('#offer').html(), valid: false});
-        fields.push({ui: sectionUI.find('#time'), type: "input", initialMessage: sectionUI.find('#time').html(), valid: false});
         
         
         for(var i=0;i<fields.length;i++){

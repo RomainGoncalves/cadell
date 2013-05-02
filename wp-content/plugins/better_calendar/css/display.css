@@ -3,8 +3,53 @@ div#better_calendar{
 }
 div#better_calendar table td{
 	border-top: none;
+	padding: 1px ;
 }
-table#better_calendar_events{
+div#better_calendar_events{
+	width: 345px;
+	float: right;
+}
+div#better_calendar_events div.event{
+	padding: 10px;
+	margin-bottom: 20px;
+	background: #141517;
+}
+div#better_calendar_events div.event h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+div#better_calendar_events div.event img{
+	width: 320px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
+}
+div#better_calendar_events div.event div.event_date{
+	margin-top: 15px;
+}
+div#better_calendar_events div.event div.event_date span.event_where{
+	float: right;
+	max-width: 175px;
+}
+div#better_calendar_events div.event p.event_description{
+	text-align: justify;
+}
+div#better_calendar_events div.event table{
+	width: 320px;
+	text-align: center;
+	border: 1px solid #a8a8a8;
+	border-collapse: collapse;
+	margin-top: 15px;
+}
+div#better_calendar_events div.event table td,div#better_calendar_events div.event table th{
+	border: 1px solid #a8a8a8;
+	padding: 3px;
+}
+div#better_calendar_events div.event table thead{
+	font-weight: bold;
+}
+/*table#better_calendar_events{
 	float: left;
 	margin-left: 20px ;
 	width: 330px;
@@ -38,4 +83,4 @@ div#better_calendar table td.highlight a{
 	background: #fff79a url(/wp-content/plugins/better-calendar/css/vendors/ui-darkness/images/ui-bg_inset-soft_30_f58400_1x100.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #000000;
-}
+}*/

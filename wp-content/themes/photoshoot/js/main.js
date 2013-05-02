@@ -453,7 +453,6 @@ function PopUpManager(popupContainer){
      }
      //dismiss popup
      this.dismiss = function(time, efx){
-        //console.log($(this));
          isFirstTime = false;
          (time==undefined)?time=800:null;
          (efx==undefined)?efx='easeInExpo':null;  
