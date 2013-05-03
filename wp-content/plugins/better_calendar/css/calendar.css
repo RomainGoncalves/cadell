@@ -10,6 +10,10 @@
 	border-spacing: 0;
 }
 
+.ui-datepicker-calendar{
+	width: 294px;
+}
+
 /* Calendar Wrapper */
 .ui-datepicker {
 	display: none;
@@ -149,3 +153,45 @@
 
 /* Other Months Days*/
 .ui-datepicker-other-month .ui-state-default { color: #565656; }
+
+div#better_calendar table td.highlight a{
+	border: 1px solid #a8a8a8;
+	background: #5B5252 url(/wp-content/plugins/better-calendar/css/vendors/ui-darkness/images/ui-bg_inset-soft_30_f58400_1x100.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #000000;
+}
+div#better_calendar_legend{
+	float: left;
+	clear: left;
+	background: #141517;
+	margin-top: 15px;
+	padding: 10px;
+	width: 110px;
+}
+div#better_calendar_legend div{
+	height: 30px;
+	padding-top: 11px;
+}
+div#better_calendar_legend span{
+	display: inline-block;
+	width: 18px;
+	padding: 4px;
+	margin-right: 5px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+	font-family: Tahoma;
+	float: right;
+	clear: right;
+	position: relative;
+	top: -14px;
+}
+div#better_calendar_legend span.today{
+	color: #6a9113;
+	border: 1px solid #6a9113;
+}
+div#better_calendar_legend span.event{
+	background: #5B5252;
+	border: 1px solid #a8a8a8;
+}

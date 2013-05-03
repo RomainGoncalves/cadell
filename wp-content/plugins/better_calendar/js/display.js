@@ -9,7 +9,8 @@
 
 			//console.log(date) ;
 
-			$('table#better_calendar_events tbody .event_date').each(function(){
+			$('div#better_calendar_events .event_date_start').each(function(){
+				
 				dates[$(this).text()] = $(this).text();
 				i++;
 			});
@@ -47,24 +48,26 @@
 
 		function selectEvent(date){
 
-			var selector = "table#better_calendar_events tbody tr." + date.replace(/\//g, '-') ;
+			var selector = "div#better_calendar_events div.event." + date.replace(/\//g, '-') ;
+
+			console.log(selector) ;
 
 			//Hide all rows desc
-			$('table#better_calendar_events tbody tr.row_desc').hide() ;
-			$('table#better_calendar_events tbody tr.row_desc').removeClass('show') ;
+			$('div#better_calendar_events div.event').hide() ;
+			$('div#better_calendar_events div.event').removeClass('show') ;
 
 
-			if($(selector).next().hasClass('show')){
+			if($(selector).hasClass('show')){
 				
 				//Hide event description
-				$(selector).next().hide('slow').removeClass('show') ;
+				$(selector).hide('slow').removeClass('show') ;
 
 			}
 			else{
-			//console.log($(selector).next().css('display'));
+			//console.log($(selector).css('display'));
 
 				//Hide event description
-				$(selector).next().show('slow').addClass('show') ;
+				$(selector).show('slow').addClass('show') ;
 			}
 
 		}

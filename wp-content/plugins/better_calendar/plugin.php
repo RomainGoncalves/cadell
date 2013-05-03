@@ -244,7 +244,7 @@ class BetterCalendar {
 			
 			$output .= '<div class="event '.str_replace('/', '-', $meta['event_details_start_date'][0]).'">' ;
 
-			$output .= '<h2>'.$event->post_title.'</h2><div class="event_date"><span class="event_date_start">'.$meta['event_details_start_date'][0].'</span> - <span class="event_date_start">'.$meta['event_details_end_date'][0].'</span><span class="event_where">@ '.$meta['event_details_where'][0].'</span></div>' ;
+			$output .= '<h2>'.$event->post_title.'</h2><div class="event_date"><span class="event_date_start">'.$meta['event_details_start_date'][0].'</span> - <span class="event_date_end">'.$meta['event_details_end_date'][0].'</span><span class="event_where">@ '.$meta['event_details_where'][0].'</span></div>' ;
 
 			if(has_post_thumbnail($event->ID)){
 
@@ -290,6 +290,7 @@ class BetterCalendar {
 		}
 
 		$output .= '</div>' ;
+		$output .= '<div id="better_calendar_legend"><h2>Legend:</h2><div>Today: <span class="today">1</span></div><div>Event Date: <span class="event">25</span></div></div>' ;
 
 		wp_reset_query() ;
 
