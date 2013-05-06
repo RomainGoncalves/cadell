@@ -31,14 +31,14 @@ $socialOther = (isset($contactOptions['socialOther']))?$contactOptions['socialOt
         <div class="contactMain">
             <div class="contactContainer">
 
-                <p class="sectionTitle textColor02">Request<span class="textColor01"> booking</span></p>
+                <!--<p class="sectionTitle textColor02">Request<span class="textColor01"> booking</span></p>
                 <div class="sectionHline"></div>
                 <div class="hspacer"></div>
                 
                 <p class="mandatoryFields"><?php _e('All fields are mandatory', 'Photoshoot');?></p>
-                <!--contact form-->
+                
                 <form name="booking" class="bookingForm" action="">
-                    <div id="inputsArea">                        
+                    <div id="inputsAreaBooking">                        
                         <div><input type="text" id="name" class="textInput" value="<?php _e('Your name...', 'Photoshoot');?>" /></div>
                         
                         <div><input type="text" id="email" class="textInput" value="<?php _e('Your email...', 'Photoshoot');?>" /></div>
@@ -63,7 +63,7 @@ $socialOther = (isset($contactOptions['socialOther']))?$contactOptions['socialOt
                 
                 <div class="hspacer"></div>
                 <p id="thankYouText"><?php _e('Your message has been sent!', 'Photoshoot');?></p>
-                <div class="formButton"><a id="sendBookingBTN" class="yellowButton backgroundColor01 textColor03 alignright" href="" title="contact"><?php _e('SEND', 'Photoshoot');?></a></div>    
+                <div class="formButton"><a id="sendBookingBTN" class="yellowButton backgroundColor01 textColor03 alignright" href="" title="contact"><?php _e('SEND', 'Photoshoot');?></a></div>-->
                 <!--/contact form-->
 
                 <p class="sectionTitle textColor02"><?php echo $secondTitle['first'];?><span class="textColor01"><?php echo $secondTitle['last'];?></span></p>

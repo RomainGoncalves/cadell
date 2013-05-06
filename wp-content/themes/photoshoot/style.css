@@ -20,15 +20,15 @@ img.home{
 .bookingForm{
 	margin-top: 17px ;
 }
-.bookingForm #inputsArea{
+.bookingForm #inputsAreaBooking{
 	width: auto ;
 }
-.bookingForm #inputsArea div{
+.bookingForm #inputsAreaBooking div{
 	display: inline;
 	float: left;
 	margin-right: 32px;
 }
-.bookingForm #inputsArea div:nth-child(3), .bookingForm #inputsArea div:nth-child(7){
+.bookingForm #inputsAreaBooking div:nth-child(3), .bookingForm #inputsAreaBooking div:nth-child(7){
 	margin-right: 0 ;
 }
 .bookingForm #textArea{
