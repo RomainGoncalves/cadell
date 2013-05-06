@@ -227,7 +227,8 @@ class Custom_Post_Type
 													break;
 
 												case 'checkbox':
-												$inputs .= '<input type="'.$type.'" name="custom_meta[' . $field_id_name . ']" id="' . $field_id_name . '" '.checked($meta[$field_id_name][0]).' value="1" />' ;
+												$checked = 
+												$inputs .= '<input type="'.$type.'" name="custom_meta[' . $field_id_name . ']" id="' . $field_id_name . '" '.checked($meta[$field_id_name][0], 1, false).' value="1" />' ;
 													break;
 
 												case 'number':

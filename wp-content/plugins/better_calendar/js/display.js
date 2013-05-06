@@ -10,9 +10,10 @@
 			//console.log(date) ;
 
 			$('div#better_calendar_events .event_date_start').each(function(){
-				
-				dates[$(this).text()] = $(this).text();
+
+				dates[$(this).attr('data-date')] = $(this).attr('data-date');
 				i++;
+				
 			});
 
 			if((date.getMonth() + 1) < 10){
@@ -32,7 +33,7 @@
 
             else {
 
-                return [true, '', ''];
+                return [false, '', ''];
 
             }
 
@@ -49,8 +50,6 @@
 		function selectEvent(date){
 
 			var selector = "div#better_calendar_events div.event." + date.replace(/\//g, '-') ;
-
-			console.log(selector) ;
 
 			//Hide all rows desc
 			$('div#better_calendar_events div.event').hide() ;

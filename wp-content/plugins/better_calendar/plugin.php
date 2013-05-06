@@ -69,7 +69,7 @@ class BetterCalendar {
 	     */
 
 		//Adds Custom Post Type featured image for the edit screen
-		add_image_size('featured_preview', 100, 75, true);
+		add_image_size('featured_preview', 200, 250, true);
 
 	    add_action( 'after_setup_theme', array( $this, 'custom_post_type' ) );
 	    add_filter( 'TODO', array( $this, 'filter_method_name' ) );
@@ -236,7 +236,7 @@ class BetterCalendar {
 
 		$output = '<div id="better_calendar"></div>' ;
 		$output .= '<div id="better_calendar_events">' ;
-		//var_dump($events_>posts);
+
 		//Loop through events
 		foreach ($events->posts as $key => $event) {
 
@@ -244,11 +244,29 @@ class BetterCalendar {
 			
 			$output .= '<div class="event '.str_replace('/', '-', $meta['event_details_start_date'][0]).'">' ;
 
-			$output .= '<h2>'.$event->post_title.'</h2><div class="event_date"><span class="event_date_start">'.$meta['event_details_start_date'][0].'</span> - <span class="event_date_end">'.$meta['event_details_end_date'][0].'</span><span class="event_where">@ '.$meta['event_details_where'][0].'</span></div>' ;
+			//replace slash by dash as european time is supposed to be with dashes...
+			$date_start = str_replace('/', '-', $meta['event_details_start_date'][0]) ;
+
+			$date_formatted_start = date('D j-h-Y', strtotime($date_start)) ;
+
+			$output .= '<h2>'.$event->post_title.'</h2><div class="event_date"><span class="event_date_start" data-date="'.$meta['event_details_start_date'][0].'">'.$date_formatted_start.'</span>' ;
+
+			//Check if there's an end date
+			if($meta['event_details_end_date'][0]){
+
+				$date_end = str_replace('/', '-', $meta['event_details_end_date'][0]) ;
+				$date_formatted_end = date('D j-h-Y', strtotime($date_end)) ;
+
+				$output .= ' - <span class="event_date_end">'.$date_formatted_end.'</span>' ;
+
+			}
+
+			//End div.event_date
+			$output .= '<span class="event_where">@ '.$meta['event_details_where'][0].'</span></div>' ;
 
 			if(has_post_thumbnail($event->ID)){
 
-				$output .= get_the_post_thumbnail($event->ID, $size = 'post-thumbnail', $attr = '') ;
+				$output .= get_the_post_thumbnail($event->ID, $size = 'featured_preview', $attr = '') ;
 
 			}
 
