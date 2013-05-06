@@ -77,6 +77,10 @@ $socialOther = (isset($contactOptions['socialOther']))?$contactOptions['socialOt
                         <div><input type="text" id="name" class="textInput" value="<?php _e('Your name...', 'Photoshoot');?>" /></div>
                         <div class="hspacer"></div>
                         <div><input type="text" id="email" class="textInput" value="<?php _e('Your email...', 'Photoshoot');?>" /></div>
+                        <div class="contactType">
+                            <label for="contactTypeContact">Contact</label><input type="radio" id="contactTypeContact" name="contactType" selected="selected" value="contact">
+                            <label for="contactTypeBooking">Booking</label><input type="radio" id="contactTypeBooking" name="contactType" value="booking">
+                        </div>
                     </div>
                     <div id="textArea">
                         <textarea id="txt" rows="0" cols="0" id="message"><?php _e('Your message...', 'Photoshoot');?></textarea>   
