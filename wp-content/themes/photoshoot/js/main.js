@@ -5,6 +5,12 @@ $(document).ready(function(){
 });
 //globalJS (sent from wordpress)
 function PhotoShootWebsite(){
+
+  (function(){
+
+  
+
+})();
     
     var backgroundUtil;
     var siteUrl;
@@ -17,7 +23,19 @@ function PhotoShootWebsite(){
         backgroundUtil.showBackCallBack(backgroundAnimationComplete);
         initMainMenu();
         addWindowListener();
-        addFullScreenSupport();
+        addFullScreenSupport();//Get the click event
+
+        console.log($('.contactForm #inputsArea .contactType label')) ;
+  $('.contactForm #inputsArea .contactType label').click(function(){
+    console.log(this) ;
+    //Change the opacity
+    $(this).addClass('fullOpacity') ;
+
+    //add/remove text in textarea
+
+
+
+  });
     }
     
     function addDynamicStyles(){

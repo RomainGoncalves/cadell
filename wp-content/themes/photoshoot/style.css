@@ -40,22 +40,35 @@ img.home{
 .contactForm #inputsArea .contactType{
 	margin-top: 20px;
 }
+.contactForm #inputsArea .contactType div{
+	display: block;
+	color: white;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
 .contactForm #inputsArea .contactType label{
 	float: left;
 	display: block;
 	font-size: 15px;
 	background: white;
-	color: black;
+	color: #9c9c9c;
 	width: 91px;
 	border: none;
 	padding: 10px;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	margin-right: 1px;
+	font-style: italic;
+	cursor: pointer;
 }
-.contactForm #inputsArea .contactType label:nth-child(1){
+.contactForm #inputsArea .contactType label.typeBooking{
 	opacity: 0.5;
+	margin-left: 5px;
 }
 .contactForm #inputsArea .contactType input{
 	display: none;
+}
+.contactForm #inputsArea .contactType label.fullOpacity{
+	opacity: 1;
 }

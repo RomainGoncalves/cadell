@@ -73,13 +73,16 @@ $socialOther = (isset($contactOptions['socialOther']))?$contactOptions['socialOt
                 <p class="mandatoryFields"><?php _e('All fields are mandatory', 'Photoshoot');?></p>
                 <!--contact form-->
                 <form name="contact" class="contactForm" action="">
-                    <div id="inputsArea">                        
+                    <div id="inputsArea">
                         <div><input type="text" id="name" class="textInput" value="<?php _e('Your name...', 'Photoshoot');?>" /></div>
                         <div class="hspacer"></div>
                         <div><input type="text" id="email" class="textInput" value="<?php _e('Your email...', 'Photoshoot');?>" /></div>
                         <div class="contactType">
-                            <label for="contactTypeContact">Contact</label><input type="radio" id="contactTypeContact" name="contactType" selected="selected" value="contact">
-                            <label for="contactTypeBooking">Booking</label><input type="radio" id="contactTypeBooking" name="contactType" value="booking">
+                            <div>Select the type of message:</div>
+                            <label for="contactTypeContact" class="typeContact">Contact</label>
+                            <input type="radio" id="contactTypeContact" name="contactType" checked="checked" value="contact">
+                            <label for="contactTypeBooking" class="typeBooking">Booking</label>
+                            <input type="radio" id="contactTypeBooking" name="contactType" value="booking">
                         </div>
                     </div>
                     <div id="textArea">
