@@ -23,17 +23,7 @@ function PhotoShootWebsite(){
         backgroundUtil.showBackCallBack(backgroundAnimationComplete);
         initMainMenu();
         addWindowListener();
-        addFullScreenSupport();//Get the click event
-
-        console.log($('.contactForm #inputsArea .contactType label')) ;
-  $('.contactForm #inputsArea .contactType label').click(function(){
-    console.log(this) ;
-    //Change the opacity
-    $(this).addClass('fullOpacity') ;
-
-    //add/remove text in textarea
-
-
+        addFullScreenSupport();
 
   });
     }
