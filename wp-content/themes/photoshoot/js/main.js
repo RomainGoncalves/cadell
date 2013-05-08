@@ -5,12 +5,6 @@ $(document).ready(function(){
 });
 //globalJS (sent from wordpress)
 function PhotoShootWebsite(){
-
-  (function(){
-
-  
-
-})();
     
     var backgroundUtil;
     var siteUrl;
@@ -24,8 +18,6 @@ function PhotoShootWebsite(){
         initMainMenu();
         addWindowListener();
         addFullScreenSupport();
-
-  });
     }
     
     function addDynamicStyles(){
