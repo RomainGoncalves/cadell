@@ -179,6 +179,7 @@ class BetterCalendar {
     			'End Date'		=>	'text',
     			'Ends at'		=>	'text',
     			'Where'			=>	'text',
+    			'Website'		=>	'text',
     			'RSVP'			=>	'checkbox',
     			'Entry Fee'		=>	'text'
     		),
@@ -271,8 +272,15 @@ class BetterCalendar {
 
 			}
 
-			//End div.event_date
-			$output .= '<span class="event_where">@ '.$meta['event_details_where'][0].'</span></div>' ;
+			if($meta['event_details_website'][0]){
+
+				$output .= '<span class="event_where">@ <a href="http://'.$meta['event_details_website'][0].'" title="See the title">'.$meta['event_details_where'][0].'</a></span></div>' ;
+
+			}
+			else{
+				$output .= '<span class="event_where">@ '.$meta['event_details_where'][0].'</span></div>' ;
+			}
+			
 
 			if(has_post_thumbnail($event->ID)){
 
