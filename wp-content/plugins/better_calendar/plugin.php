@@ -272,15 +272,42 @@ class BetterCalendar {
 
 			$output .= '<p class="event_description">'.$event->post_content.'</p>' ;
 
-			$output .= '<table class="event_details">
-			<thead>
-				<th>Starts</th>
-				<th>Ends</th>
-				<th>Entry Fee</th>
-				<th>RSVP</th>
-			</thead>
-			<tbody>
-			<tr>' ;
+			if( $meta['event_details_starts_at'][0] || $meta['event_details_ends_at'][0] || $meta['event_details_entry_fee'][0] || $meta['event_details_rsvp'][0]){
+			
+				$output .= '<table class="event_details">
+				<thead>' ;
+
+			}
+
+			if($meta['event_details_starts_at'][0]){
+
+				$output .= '<th>Starts</th>' ;
+
+			}
+			if($meta['event_details_ends_at'][0]){
+
+				$output .= '<th>Ends</th>' ;
+
+			}
+			if($meta['event_details_entry_fee'][0]){
+
+				$output .= '<th>Entry Fee</th>' ;
+
+			}
+			if($meta['event_details_rsvp'][0]){
+
+				$output .= '<th>RSVP</th>' ;
+
+			}
+
+
+			if( $meta['event_details_starts_at'][0] || $meta['event_details_ends_at'][0] || $meta['event_details_entry_fee'][0] || $meta['event_details_rsvp'][0]){
+				
+				$output .= '</thead>
+				<tbody>
+				<tr>' ;
+
+			}
 
 			if($meta['event_details_starts_at'][0]){
 
@@ -303,7 +330,13 @@ class BetterCalendar {
 
 			}
 
-			$output .= '</tr></tbody></table></div>' ;
+			if( $meta['event_details_starts_at'][0] || $meta['event_details_entry_fee'][0] || $meta['event_details_entry_fee'][0] || $meta['event_details_rsvp'][0]){
+				
+				$output .= '</tr></tbody></table>' ;
+
+			}
+
+			$output .= '</div>' ;
 						
 		}
 
