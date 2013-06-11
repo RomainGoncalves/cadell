@@ -258,7 +258,7 @@ class BetterCalendar {
 			//replace slash by dash as european time is supposed to be with dashes...
 			$date_start = str_replace('/', '-', $meta['event_details_start_date'][0]) ;
 
-			$date_formatted_start = date('D j-h-Y', strtotime($date_start)) ;
+			$date_formatted_start = date('D j-m-Y', strtotime($date_start)) ;
 
 			$output .= '<h2>'.$event->post_title.'</h2><div class="event_date"><span class="event_date_start" data-date="'.$meta['event_details_start_date'][0].'">'.$date_formatted_start.'</span>' ;
 
@@ -266,7 +266,7 @@ class BetterCalendar {
 			if($meta['event_details_end_date'][0]){
 
 				$date_end = str_replace('/', '-', $meta['event_details_end_date'][0]) ;
-				$date_formatted_end = date('D j-h-Y', strtotime($date_end)) ;
+				$date_formatted_end = date('D j-m-Y', strtotime($date_end)) ;
 
 				$output .= ' - <span class="event_date_end">'.$date_formatted_end.'</span>' ;
 
