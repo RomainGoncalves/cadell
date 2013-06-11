@@ -359,7 +359,7 @@ class BetterCalendar {
 		}
 
 		$output .= '</div>' ;
-		$output .= '<div id="better_calendar_legend"><h2>My Upcoming Gig\'s</h2></div>' ;
+		$output .= '<div id="better_calendar_legend"><h2>Keep up to date with all my upcoming gigs & events</h2></div>' ;
 		//$output .= '<div id="better_calendar_legend"><h2>Legend:</h2><div>Today: <span class="today">1</span></div><div>Event Date: <span class="event">25</span></div></div>' ;
 
 		wp_reset_query() ;

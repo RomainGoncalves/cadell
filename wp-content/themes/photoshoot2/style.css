@@ -1,0 +1,14 @@
+/*
+Theme Name: Photoshoot V2-2
+Theme URI: http://themeforest.net/user/SakuraPixel/portfolio/
+Description: PhotoShoot is a fullscreen Wordpress one page template, best fit for creative and corporate portfolio websites. The template has a unique design, there are no third party galleries or widgets, all sections have been designed and coded for this template.
+Author: SakuraPixel
+Author URI: http://themeforest.net/user/SakuraPixel
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 1.0
+*/
+@import url("css/reset.css");
+@import url("css/main.css");
+@import url("css/sections.css");
+@import url("css/jquery.mCustomScrollbar.css");
