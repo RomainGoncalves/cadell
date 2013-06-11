@@ -227,8 +227,18 @@ class BetterCalendar {
 	//Shortcode function
 	function better_calendar_shortcode(){//For now displays calendar, TODO -> Add Backbone
 
+		// $today = date("j/m/Y");
+
 		$args = array(
-			'post_type'	=> 'event'
+			'post_type'	=> 'event',
+			/*'meta_query' => array(
+				array(
+					'key' => 'event_details_start_date',
+					'value' => $today,
+					'type' => 'date',
+					'compare' => '>='
+				)
+			)TO DO AT A LATER TIME*/
 			) ;
 
 		//Get all events
