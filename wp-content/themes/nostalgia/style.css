@@ -147,7 +147,7 @@ a.image-link
 	background-color:#FFC000;
 }
 #nostalgia-navigation-name-box{
-	background-color: none !Important;
+	background: none !Important;
 }
 #start-preloader,
 #nostalgia-navigation-close-button,
