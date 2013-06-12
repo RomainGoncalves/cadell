@@ -145,7 +145,7 @@ class BetterCalendar {
 	public function register_plugin_styles() {
 	
 		wp_enqueue_style( 'better_calendar-plugin-styles', plugins_url( 'better_calendar/css/display.css' ) );
-		//wp_enqueue_style( 'better_calendar-admin-jqueryui-styles', plugins_url( 'better_calendar/css/vendors/ui-darkness/jquery-ui-1.10.1.custom.min.css' ) );
+		// wp_enqueue_style( 'better_calendar-admin-jqueryui-styles', plugins_url( 'better_calendar/css/vendors/ui-darkness/jquery-ui-1.10.1.custom.min.css' ) );
 		wp_enqueue_style( 'google-fonts', 'http://fonts.googleapis.com/css?family=Sintony:400,700', 'better_calendar-admin-jqueryui-styles');
 		wp_enqueue_style( 'better_calendar-custom-calendar', plugins_url( 'better_calendar/css/calendar.css' ), 'better_calendar-admin-jqueryui-styles' );
 	
@@ -158,7 +158,7 @@ class BetterCalendar {
 	
 		//wp_enqueue_script('backbone', $src = false, $deps = array('underscore'), $ver = false, $in_footer = false) ; //TODO
 		wp_enqueue_script( 'better_calendar-plugin-script', plugins_url( 'better_calendar/js/display.js' ), array('jquery') );
-		wp_enqueue_script('jquery-ui-datepicker', '', $deps = array('jquery'), '', $in_footer = false) ;
+		wp_enqueue_script('jquery-ui-datepicker', '', $deps = array('jquery', 'jquery-ui'), '', $in_footer = false) ;
 	
 	} // end register_plugin_scripts
 	
