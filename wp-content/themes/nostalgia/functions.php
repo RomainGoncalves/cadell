@@ -263,6 +263,7 @@ function theme_enqueue_scripts()
 	wp_enqueue_script("jquery");
 	wp_enqueue_script("jquery-ui-core");
 	wp_enqueue_script("jquery-ui-accordion");
+	wp_enqueue_script("jquery-ui", "http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js", array("jquery"));
 	//wp_enqueue_script("jquery-ba-bqq", get_template_directory_uri() . "/js/jquery.ba-bqq.min.js", array("jquery"));
 	wp_enqueue_script("jquery-history", get_template_directory_uri() . "/js/jquery.history.js", array("jquery"));
 	wp_enqueue_script("jquery-easing", get_template_directory_uri() . "/js/jquery.easing.js", array("jquery"));
@@ -339,7 +340,7 @@ function theme_enqueue_scripts()
 		wp_enqueue_style("responsive", get_template_directory_uri() . "/style/responsive.css");
 	wp_enqueue_style("jquery-jscrollpane", get_template_directory_uri() . "/style/jquery.jScrollPane.css");
 	wp_enqueue_style("jquery-qtip", get_template_directory_uri() . "/style/jquery.qtip.css");
-	wp_enqueue_style("jquery-ui", get_template_directory_uri() . "/style/jquery-ui/jquery-ui.css");
+	// wp_enqueue_style("jquery-ui", get_template_directory_uri() . "/style/jquery-ui/jquery-ui.css");
 	wp_enqueue_style("jquery-fancybox", get_template_directory_uri() . "/style/fancybox/jquery.fancybox.css");
 	wp_enqueue_style("google-font-voces", "http://fonts.googleapis.com/css?family=Voces");
 	wp_enqueue_style("google-font-dosis", "http://fonts.googleapis.com/css?family=Dosis:400,300,200,500,600,700,800");
