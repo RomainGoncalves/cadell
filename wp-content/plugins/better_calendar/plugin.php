@@ -245,7 +245,7 @@ class BetterCalendar {
 		//Get all events
 		$events = new WP_Query($args) ;
 
-		$output = '<div id="better_calendar_legend"><h2>Keep up to date with all my upcoming gigs & events</h2></div>' ;
+		$output = '<div id="better_calendar_legend">Keep up to date with all my upcoming gigs & events</div>' ;
 		$output .= '<div id="better_calendar"></div>' ;
 		$output .= '<div id="better_calendar_events">' ;
 
