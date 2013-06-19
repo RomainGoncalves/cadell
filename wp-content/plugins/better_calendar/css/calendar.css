@@ -161,11 +161,11 @@ div#better_calendar table td.highlight a{
 	color: #000000;
 }
 div#better_calendar_legend{
-	float: left;
-	clear: left;
 	background: #141517;
 	margin-top: 15px;
 	padding: 10px;
+	text-align: center;
+	margin-bottom: 20px; 
 }
 div#better_calendar_legend div{
 	height: 30px;
