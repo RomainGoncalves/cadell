@@ -477,3 +477,14 @@ float:left;
     width: 335px;
 }
 /* Comparison Ends Here */
+#acx_td p .button
+{
+    border: 1px solid lightgray;
+    margin: 0 3px 0 0 !important;
+    min-height: 30px !important;
+    padding: 3px 10px !important;
+}
+#acx_td p .button:hover
+{
+    background: azure;
+}

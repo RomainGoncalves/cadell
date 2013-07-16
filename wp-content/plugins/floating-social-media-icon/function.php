@@ -324,104 +324,36 @@ function pbl_footer()
 			$x = strlen($acx_get_url);
 			if(($x % 10) == 0)
 			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Social Media Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Animated Social 
-			Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' 
-			title='Wordpress Development Company' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
-			Development Company</a>";
-			} else if(($x % 9) == 0)
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Floating Social Media Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Floating Social 
-			Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Blog 
-			Design Company' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Blog 
-			Designing Company</a>";
-			} else if(($x % 8) == 0)
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Social Media Plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Integration</a> Powered by <a href='http://www.acurax.com/services/blog-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Web 
-			Design Company' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
-			Theme Designers</a>";
-			} else if(($x % 7) == 0)
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Social Media Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/web-designing.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Affordable 
-			Website Designer' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Website 
-			Design Expert</a>";
-			} else if(($x % 6) == 0)
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='SocialMedia Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/web-development.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Web 
-			Development Company' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Web 
-			Development Company</a>";
-			} else if(($x % 5) == 0)
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Social Media Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/website-redesign.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Website 
-			Redesign Experts' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Website 
-			Redesign Experts</a>";
-			} else if(($x % 4) == 0)
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Social Media Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a 
-			href='http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' 
-			title='Social Profile Design Experts' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Social 
-			Profile Design Experts</a>";
-			} else if(($x % 3) == 0)
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Social Media Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/' target='_blank' title='Wordpress Development Company' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
-			Development Company</a>";
-			} else if(($x % 2) == 0)
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Social Media Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/web-designing.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Web Design 
-			Company' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Web 
-			Design Company</a>";
-			} else if(($x % 1) == 0)
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Social Media Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Animated Social 
-			Media Icons</a> Powered by <a href='http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=blink&utm_medium=link&utm_campaign=footer' 
-			target='_blank' 
-			title='Wordpress Development Company' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
-			Development Company</a>";
-			} else 
-			{
-			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
-			title='Social Media Wordpress plugin' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/online-store-design-development.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' 
-			title='Ecommerce Design Expert' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Ecommerce 
-			Design Expert</a>";
-			}
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Animated Social Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Wordpress Development Company' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress Development Company</a>";
+} else if(($x % 9) == 0)
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Floating Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Floating Social Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Blog Design Company' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Blog Designing Company</a>";
+} else if(($x % 8) == 0)
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media Integration</a> Powered by <a href='http://www.acurax.com/services/blog-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Web Design Company' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress Theme Designers</a>";
+} else if(($x % 7) == 0)
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media Icons</a> Powered by <a href='http://www.acurax.com/services/web-designing.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Affordable Website Designer' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Website Design Expert</a>";
+} else if(($x % 6) == 0)
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='SocialMedia Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media Icons</a> Powered by <a href='http://www.acurax.com/services/web-development.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Web Development Company' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Web Development Company</a>";} else if(($x % 5) == 0)
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media Icons</a> Powered by <a href='http://www.acurax.com/services/website-redesign.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Website Redesign Experts' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Website Redesign Experts</a>";} else if(($x % 4) == 0)
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media Icons</a> Powered by <a href='http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Social Profile Design Experts' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Social Profile Design Experts</a>";
+} else if(($x % 3) == 0)
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media Icons</a> Powered by <a href='http://www.acurax.com/' target='_blank' title='Wordpress Development Company' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress Development Company</a>";
+} else if(($x % 2) == 0)
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media Icons</a> Powered by <a href='http://www.acurax.com/services/web-designing.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Web Design Company' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Web Design Company</a>";
+} else if(($x % 1) == 0)
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Animated Social Media Icons</a> Powered by <a href='http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Wordpress Development Company' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress Development Company</a>";
+} else 
+{
+echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media Icons</a> Powered by <a href='http://www.acurax.com/services/online-store-design-development.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Ecommerce Design Expert' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Ecommerce Design Expert</a>";
+}
 			// Ending Crediting
 			echo "</div>";
 		} 
@@ -551,7 +483,7 @@ function acx_si_custom_admin_js()
 function acx_si_pluign_upgrade_not_finished()
 {
     echo '<div class="error">
-		  <p><b>Thanks for updating Floating Social Media Icon plugin... You need to visit <a href="admin.php?page=Acurax-Social-Icons-Settings">Plugin\'s Settings Page</a> to Complete the Updation Process - <a href="admin.php?page=Acurax-Social-Icons-Settings">Click Here Visit Social Icon Plugin Settings</a></b></p>
+		  <p><b>Thanks for updating Floating Social Media Icon plugin... You need to visit <a href="admin.php?page=Acurax-Social-Icons-Settings">Plugin\'s Settings Page</a> to Complete the Updating Process - <a href="admin.php?page=Acurax-Social-Icons-Settings">Click Here Visit Social Icon Plugin Settings</a></b></p>
 		  </div>';
 }
 $total_arrays = 7; // Number Of Services
@@ -567,11 +499,11 @@ if ($social_icon_array_count < $total_arrays)
 function acx_fsmi_si_pluign_finish_version_update()
 {
     echo '<div id="message" class="updated">
-		  <p><b>Thanks for updating Floating Social Media Icon plugin... You need to visit <a href="admin.php?page=Acurax-Social-Icons-Settings&status=updated#updated">Plugin\'s Settings Page</a> to Complete the Updation Process - <a href="admin.php?page=Acurax-Social-Icons-Settings&status=updated#updated">Click Here Visit Social Icon Plugin Settings</a></b></p>
+		  <p><b>Thanks for updating Floating Social Media Icon plugin... You need to visit <a href="admin.php?page=Acurax-Social-Icons-Settings&status=updated#updated">Plugin\'s Settings Page</a> to Complete the Updating Process - <a href="admin.php?page=Acurax-Social-Icons-Settings&status=updated#updated">Click Here Visit Social Icon Plugin Settings</a></b></p>
 		  </div>';
 }
 $acx_fsmi_si_current_version = get_option('acx_fsmi_si_current_version');
-if($acx_fsmi_si_current_version != '1.2') // Current Version
+if($acx_fsmi_si_current_version != '1.3') // Current Version
 {
 if (get_option('social_icon_array_order') != "")
 {
@@ -602,11 +534,33 @@ if ($acx_si_twitter == "" && $acx_si_facebook == "" && $acx_si_youtube == "" && 
 // wp-admin Notices >> Plugin not configured
 function acx_si_pluign_promotion()
 {
+$acx_tweet_text_array = array
+						(
+						"I Use Floating SocialMedia wordpress plugin from @acuraxdotcom and you should too",
+						"Floating Social Media wordpress Plugin from @acuraxdotcom is Awesome",
+						"Thanks @acuraxdotcom for developing such a wonderful social media wordpress plugin",
+						"Actually i am looking for a social media Plugin like this. Thanks @acuraxdotcom",
+						"Its very nice to use Floating Social media wordpress Plugin from @acuraxdotcom",
+						"I installed Floating Social Media.. from @acuraxdotcom,  It works wonderful",
+						"The floating social media icon wordpress plugin looks soo nice.. thanks @acuraxdotcom", 
+						"It awesome to use Floating Social Media wordpress plugin from @acuraxdotcom",
+						"Floating Social Media wordpress Plugin that i use Looks awesome and works terrific",
+						"I am using Floating Social Media Icon wordpress Plugin from @acuraxdotcom I like it!",
+						"The socialmedia plugin from @acuraxdotcom Its simple looks good and works fine",
+						"Ive been using this social media plugin for a while now and it is attractive",
+						"Floating Social Media Icon wordpress plugin is Fantastic Plugin",
+						"Floating Social Media Icon wordpress plugin was easy to use and works great. thank you!",
+						"Good and flexible wp socialmedia plugin especially for beginners.",
+						"Easily the best socialmedia wordpress plugin of the type I have used ! THANKS! @acuraxdotcom",
+						);
+$acx_tweet_text = array_rand($acx_tweet_text_array, 1);
+$acx_tweet_text = $acx_tweet_text_array[$acx_tweet_text];
+// echo $acx_tweet_text;
     echo '<div id="acx_td" class="error" style="background: none repeat scroll 0pt 0pt infobackground; border: 1px solid inactivecaption; padding: 5px;line-height:16px;">
 	<p>It looks like you have been enjoying using Floating Social Media Icon plugin from <a href="http://www.acurax.com?utm_source=plugin&utm_medium=thirtyday&utm_campaign=fsmi" title="Acurax Web Designing Company" target="_blank">Acurax</a> for atleast 30 days.Would you consider upgrading to <a href="http://clients.acurax.com/floating-socialmedia.php/?utm_source=plugin&utm_medium=thirtyday_yellow&utm_campaign=fsmi" title="Premium Floating Social Media Icon" target="_blank">premium version</a> to enjoy more features and help support continued development of the plugin? - Spreading the world about this plugin. Thank you for using the plugin</p>
 	<p>
 	<a href="http://wordpress.org/support/view/plugin-reviews/floating-social-media-icon/" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Rate it 5★\'s on wordpress</a>
-	<a href="https://twitter.com/share?url=http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/&text=I Use Floating SocialMedia wordpress plugin from @acuraxdotcom and you should too -" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Tell Your Followers</a>
+	<a href="https://twitter.com/share?url=http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/&text='.$acx_tweet_text.' -" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Tell Your Followers</a>
 	<a href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin&utm_medium=thirtyday&utm_campaign=fsmi" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Order Premium Version</a>
 	<a href="admin.php?page=Acurax-Social-Icons-Premium&td=hide" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;margin-left:20px;">Don\'t Show This Again</a>
 </p>
@@ -687,52 +641,37 @@ class Acx_Social_Icons_Widget extends WP_Widget
 			</p>
 			<p>
 				<label for="<?php echo $this->get_field_id('icon_size'); ?>"><?php _e('Icon Size:'); ?></label>
-				<select class="widefat" name="<?php echo $this->get_field_name('icon_size'); ?>" id="<?php echo $this
-				->get_field_id('icon_size'); ?>">
-				<option value="16"<?php if ($instance['icon_size'] == "16") { echo 'selected="selected"'; } ?>>16px X 16px </
-				option>
-				<option value="25"<?php if ($instance['icon_size'] == "25") { echo 'selected="selected"'; } ?>>25px X 25px </
-				option>
-				<option value="32"<?php if ($instance['icon_size'] == "32") { echo 'selected="selected"'; } ?>>32px X 32px </
-				option>
-				<option value="40"<?php if ($instance['icon_size'] == "40") { echo 'selected="selected"'; } ?>>40px X 40px </
-				option>
-				<option value="48"<?php if ($instance['icon_size'] == "48") { echo 'selected="selected"'; } ?>>48px X 48px </
-				option>
-				<option value="55"<?php if ($instance['icon_size'] == "55") { echo 'selected="selected"'; } ?>>55px X 55px </
-				option>
-				</select>
+<select class="widefat" name="<?php echo $this->get_field_name('icon_size'); ?>" id="<?php echo $this->get_field_id('icon_size'); ?>">
+<option value="16"<?php if ($instance['icon_size'] == "16") { echo 'selected="selected"'; } ?>>16px X 16px </option>
+<option value="25"<?php if ($instance['icon_size'] == "25") { echo 'selected="selected"'; } ?>>25px X 25px </option>
+<option value="32"<?php if ($instance['icon_size'] == "32") { echo 'selected="selected"'; } ?>>32px X 32px </option>
+<option value="40"<?php if ($instance['icon_size'] == "40") { echo 'selected="selected"'; } ?>>40px X 40px </option>
+<option value="48"<?php if ($instance['icon_size'] == "48") { echo 'selected="selected"'; } ?>>48px X 48px </option>
+<option value="55"<?php if ($instance['icon_size'] == "55") { echo 'selected="selected"'; } ?>>55px X 55px </option>
+</select>
 			</p>
 			<p>
 				<label for="<?php echo $this->get_field_id('icon_theme'); ?>"><?php _e('Icon Theme:'); ?></label>
-				<select class="widefat" name="<?php echo $this->get_field_name('icon_theme'); ?>" id="<?php echo $this
-				->get_field_id('icon_theme'); ?>">
-				<option value=""<?php if ($instance['icon_theme'] == "") { echo 
-				'selected="selected"'; } ?>>Default Theme Design</option>
-				<?php
-				for ($i=1; $i < $total_themes; $i++)
-				{
-					?>
-					<option value="<?php echo $i; ?>"<?php if ($instance['icon_theme'] == $i) { echo 
-					'selected="selected"'; } ?>>Theme Design <?php echo $i; ?> </option>
-					<?php
-				}	?>
-				</select>
+<select class="widefat" name="<?php echo $this->get_field_name('icon_theme'); ?>" id="<?php echo $this->get_field_id('icon_theme'); ?>">
+<option value=""<?php if ($instance['icon_theme'] == "") { echo 'selected="selected"'; } ?>>Default Theme Design</option>
+<?php
+for ($i=1; $i < $total_themes; $i++)
+{
+?>
+<option value="<?php echo $i; ?>"<?php if ($instance['icon_theme'] == $i) { echo 'selected="selected"'; } ?>>Theme Design <?php echo $i; ?> </option>
+<?php
+}	?>
+</select>
 			</p>
-			<p>
-				<label for="<?php echo $this->get_field_id('icon_align'); ?>"><?php _e('Icon Align:'); ?></label>
-				<select class="widefat" name="<?php echo $this->get_field_name('icon_align'); ?>" id="<?php echo $this
-				->get_field_id('icon_align'); ?>">
-				<option value=""<?php if ($instance['icon_align'] == "") { echo 'selected="selected"'; } ?>>Default </
-				option>
-				<option value="left"<?php if ($instance['icon_align'] == "left") { echo 'selected="selected"'; } ?>>Left </
-				option>
-				<option value="center"<?php if ($instance['icon_align'] == "center") { echo 'selected="selected"'; } ?>>Center </
-				option>
-				<option value="right"<?php if ($instance['icon_align'] == "right") { echo 'selected="selected"'; } ?>>Right </
-				option>
-				</select>
-			</p>
+<p>
+	<label for="<?php echo $this->get_field_id('icon_align'); ?>"><?php _e('Icon Align:'); ?></label>
+	<select class="widefat" name="<?php echo $this->get_field_name('icon_align'); ?>" id="<?php echo $this->get_field_id('icon_align'); ?>">
+	<option value=""<?php if ($instance['icon_align'] == "") { echo 'selected="selected"'; } ?>>Default </option>
+	<option value="left"<?php if ($instance['icon_align'] == "left") { echo 'selected="selected"'; } ?>>Left </option>
+	<option value="center"<?php if ($instance['icon_align'] == "center") { echo 'selected="selected"'; } ?>>Center </option>
+	<option value="right"<?php if ($instance['icon_align'] == "right") { echo 'selected="selected"'; } ?>>Right </option>
+	</select>
+</p>
 		<?php
 	}
 
