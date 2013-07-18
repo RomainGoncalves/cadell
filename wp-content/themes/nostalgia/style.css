@@ -2299,3 +2299,25 @@ div.contact-details-map div.contact-details-map-arrow
 	background-position:right center;
 	background-image:url('images/icon_arrow_white.png');
 }
+ul.tweets{
+	margin: 0;
+	padding: 0 ;
+}
+ul.tweets li{
+	background: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 7px;
+	font-size: 12px;
+}
+
+ul.tweets li a{
+	font-size: 12px;
+	color: rgb(255, 255, 0);
+	text-decoration: none;
+}
+
+ul.tweets li em{
+	margin-top: 5px;
+	display: block;
+}
