@@ -310,7 +310,8 @@ class PI_SimpleTwitterTweets extends WP_Widget{
 			$backupName = $transName . '-backup'; // Name of backup value in database.
 
 			// Do we already have saved tweet data? If not, lets get it.
-			if(false === ($tweets = get_transient($transName) ) ) :
+			// if(true === ($tweets = get_transient($transName) ) ) :
+			// if(true === ($tweets = get_transient($transName) ) ) :
 
 			// Get the tweets from Twitter.
 			include 'twitteroauth/twitteroauth.php';
@@ -347,9 +348,6 @@ class PI_SimpleTwitterTweets extends WP_Widget{
 
 				for($i = 0; $i < $limitToDisplay; $i++) :
 					$tweet = $fetchedTweets[$i];
-
-
-
 			    	// Core info.
 			    	$name = $tweet->user->name;
 
@@ -381,16 +379,17 @@ class PI_SimpleTwitterTweets extends WP_Widget{
 				endfor;
 
 				// Save our new transient, and update the backup.
-				set_transient($transName, $tweets, 60 * $cacheTime);
-				update_option($backupName, $tweets);
+				set_transient($transName, $tweets , 60 * $cacheTime);
+				add_option($backupName, $tweets );
 				endif;
-			endif;
+			// endif;
 
 			// Now display the tweets, if we can.
 			if($tweets) : ?>
+			
 			    <?php foreach($tweets as $t) : ?>
 			        <li><?php echo $t['text']; ?>
-			            <br/><em>
+			        	<em>
 			            <?php if(!isset($screen_name)){ $screen_name = $name; }?>
 						<a href="http://www.twitter.com/<?php echo $screen_name; ?>" target="_blank" title="Follow <?php echo $name; ?> on Twitter [Opens new window]"><?php echo human_time_diff($t['time'], current_time('timestamp')); ?> ago</a>
 			            </em>
