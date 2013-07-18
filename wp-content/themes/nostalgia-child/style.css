@@ -1,0 +1,70 @@
+/*
+Theme Name:     Nostalgia Child
+Theme URI:      http://wp.tutsplus.com/
+Description:    Child theme for Twenty Twelve
+Author:         Japh
+Author URI:     http://wp.tutsplus.com/author/japh
+Template:       nostalgia
+Version:        1.0.0
+*/
+ 
+@import url("../nostalgia/style.css");
+
+/* Twitter Plugin Styles */
+.PI_SimpleTwitterTweets h2.widgettitle{
+	background: black;
+	color: #fff;
+	font-family: 'Dosis';
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1;
+	padding: 8px 8px 10px;
+	margin-bottom: 2px;
+	text-transform: uppercase;
+}
+.PI_SimpleTwitterTweets ul.tweets{
+	margin: 0;
+	padding: 0 ;
+}
+.PI_SimpleTwitterTweets ul.tweets li{
+	background: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 7px;
+	font-size: 12px;
+}
+
+.PI_SimpleTwitterTweets ul.tweets li a{
+	font-size: 13px;
+	color: rgb(255, 255, 0);
+	text-decoration: none;
+}
+
+.PI_SimpleTwitterTweets ul.tweets li em{
+	margin-top: 5px;
+	display: block;
+}
+
+/** Facebook Plugin */
+.widget_text .textwidget{
+	background: none;
+}
+.widget_text .widgettitle{
+	margin-bottom: 0;
+}
+div#cff{
+}
+div#cff div.cff-item{
+	background: #000;
+	margin-top: 10px ;
+	padding: 7px;
+}
+div#cff div.cff-item h4{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgb(156, 151, 140);
+}
+div#cff div.cff-item .cff-date{
+	color:  rgb(255, 255, 0);
+}
