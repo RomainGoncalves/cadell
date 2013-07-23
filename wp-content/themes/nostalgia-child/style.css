@@ -20,9 +20,25 @@ ul.image-list div.image-list-caption div.image-list-caption-title{
 ul.image-list li{
 	margin-top: 0;
 }
-.nostalgia-accordion.ui-widget{
+
+.nostalgia-accordion .ui-state-default{
+	background: #ffff00 url('images/icon_plus_black.png') right center no-repeat;
+}
+.nostalgia-accordion .ui-state-active{
+	background: #ffff00 url('images/icon_minus_yellow.png') right center no-repeat;
+}
+.nostalgia-accordion  .ui-accordion-header{
+	margin-bottom: 0;
 	clear: both;
 	margin-top: 10px;
+}
+#nostalgia-tab-content-page .nostalgia-accordion .ui-accordion-content{
+	margin-top: 20px;
+}
+#nostalgia-tab-content-page .nostalgia-accordion .ui-accordion-header a{
+	color: #000;
+	margin-top: 10px;
+	padding: 0px 10px 0px 10px;
 }
 
 /* Twitter Plugin Styles */
