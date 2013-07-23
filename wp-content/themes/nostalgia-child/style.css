@@ -10,6 +10,21 @@ Version:        1.0.0
  
 @import url("../nostalgia/style.css");
 
+ul.image-list li div.image-list-caption, div.contact-details-about{
+	background: #FDFD00 url('images/icon_plus_black.png') 97% center no-repeat;
+	margin-bottom: 20px;
+}
+ul.image-list div.image-list-caption div.image-list-caption-title{
+	color: #000000;
+}
+ul.image-list li{
+	margin-top: 0;
+}
+.nostalgia-accordion.ui-widget{
+	clear: both;
+	margin-top: 10px;
+}
+
 /* Twitter Plugin Styles */
 .PI_SimpleTwitterTweets h2.widgettitle{
 	background: black;
