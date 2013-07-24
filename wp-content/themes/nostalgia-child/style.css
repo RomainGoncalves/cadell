@@ -53,6 +53,10 @@ ul.image-list li{
 	margin-top: 10px;
 	padding: 0px 10px 0px 10px;
 }
+#nostalgia-tab-content #nostalgia-tab-footer ul.social-list,
+#nostalgia-tab-content #nostalgia-tab-footer div.nostalgia-tab-footer-caption{
+	background: #ffff00;
+}
 
 /* Twitter Plugin Styles */
 .PI_SimpleTwitterTweets h2.widgettitle{
