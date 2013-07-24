@@ -59,6 +59,8 @@ ul.image-list li{
 #nostalgia-tab-content #nostalgia-tab-footer ul.social-list,
 #nostalgia-tab-content #nostalgia-tab-footer div.nostalgia-tab-footer-caption{
 	background: #ffff00;
+	font-size: 11px;
+	height: 16px;
 }
 
 /* Twitter Plugin Styles */
