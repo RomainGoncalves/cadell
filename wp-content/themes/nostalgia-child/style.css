@@ -62,6 +62,23 @@ ul.image-list li{
 	font-size: 11px;
 	height: 16px;
 }
+.nostalgia-tab-right #nostalgia-tab-footer ul.social-list,
+.nostalgia-tab-right #nostalgia-tab-footer div.nostalgia-tab-footer-caption{
+	padding-right: 20px;
+}
+.nostalgia-tab-left #nostalgia-tab-footer ul.social-list,
+.nostalgia-tab-left #nostalgia-tab-footer div.nostalgia-tab-footer-caption{
+	padding-left: 20px;
+}
+#nostalgia-tab-footer ul.social-list li a.social-facebook {
+background-image: url('images/icon/icon-social/icon_social_facebook.png');
+}
+#nostalgia-tab-footer ul.social-list li a.social-twitter {
+background-image: url('images/icon/icon-social/icon_social_twitter.png');
+}
+#nostalgia-tab-footer ul.social-list li a.social-soundcloud {
+background-image: url('images/icon/icon-social/icon_social_soundcloud.png');
+}
 
 /* Twitter Plugin Styles */
 .PI_SimpleTwitterTweets h2.widgettitle{
