@@ -31,11 +31,9 @@ ul.image-list li{
 #nostalgia-tab-content-page a:hover{
 	color: #ffff00;
 }
-
 #nostalgia-tab-content-page img.wp-image-501{
 	margin-left: 10px;
 }
-
 .nostalgia-accordion .ui-state-default{
 	background: #ffff00 url('images/icon_plus_black.png') right center no-repeat;
 }
@@ -117,6 +115,15 @@ div#cff div.cff-item .cff-date{
 
 #dcsmt-4 .tab-inner .profile h3 a{
 	line-height: 100%;
+}
+#dcsmt-4 .tab-content.tab-twitter, #dcsmt-4 .tab-content.tab-facebook{
+	background: #000;
+}
+#dcsmt-4 .tab-content.tab-twitter.tab-twitter .tab-inner ul li a{
+	color: #000;
+}
+#dcsmt-4 .tab-content ul{
+	font-size: 12px;
 }
 #supersized-control{
 	display: none !Important;
