@@ -28,6 +28,9 @@ ul.image-list li{
 #nostalgia-tab-content-page img{
 	display: inline-block;
 }
+#nostalgia-tab-content-page a:hover{
+	color: #ffff00;
+}
 
 #nostalgia-tab-content-page img.wp-image-501{
 	margin-left: 10px;
