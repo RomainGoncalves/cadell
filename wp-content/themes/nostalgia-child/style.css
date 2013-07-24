@@ -125,6 +125,9 @@ div#cff div.cff-item .cff-date{
 #dcsmt-4 .tab-content ul{
 	font-size: 12px;
 }
+#dcsmt-4 .tab-content .title{
+	color: #000;
+}
 #supersized-control{
 	display: none !Important;
 }
