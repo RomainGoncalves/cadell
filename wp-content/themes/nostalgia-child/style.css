@@ -29,16 +29,16 @@ ul.image-list li{
 	display: inline-block;
 }
 #nostalgia-tab-content-page a:hover{
-	color: #ffff00;
+	color: #cdb97c;
 }
 #nostalgia-tab-content-page img.wp-image-501{
 	margin-left: 10px;
 }
 .nostalgia-accordion .ui-state-default{
-	background: #ffff00 url('images/icon_plus_black.png') right center no-repeat;
+	background: #cdb97c url('images/icon_plus_black.png') right center no-repeat;
 }
 .nostalgia-accordion .ui-state-active{
-	background: #ffff00 url('images/icon_minus_yellow.png') right center no-repeat;
+	background: #cdb97c url('images/icon_minus_yellow.png') right center no-repeat;
 }
 .nostalgia-accordion  .ui-accordion-header{
 	margin-bottom: 0;
@@ -58,7 +58,7 @@ ul.image-list li{
 }
 #nostalgia-tab-content #nostalgia-tab-footer ul.social-list,
 #nostalgia-tab-content #nostalgia-tab-footer div.nostalgia-tab-footer-caption{
-	background: #ffff00;
+	background: #cdb97c;
 	font-size: 11px;
 	height: 16px;
 }
