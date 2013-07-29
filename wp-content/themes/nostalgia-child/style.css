@@ -12,6 +12,9 @@ Version:        1.0.0
 body, input, textarea, a, .nostalgia-accordion.ui-widget{
 	font-size: 13px;
 }
+#nostalgia-navigation-menu ul li a, h1, h2, h3, h4, h5, h6{
+	color: #cdb97c;
+}
 ul.image-list li div.image-list-caption, div.contact-details-about{
 	background: #FDFD00 url('images/icon_plus_black.png') 97% center no-repeat;
 	margin-bottom: 20px;
