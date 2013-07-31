@@ -589,17 +589,30 @@
 
 				$('div#better_calendar_events .event_date_start').each(function(){
 
-				console.log(this) ;
 					dates[$(this).attr('data-date')] = $(this).attr('data-date');
 					i++;
 					
 				});
 
+				//Check if month number is less than 10 so we can add a 0 - e.g: January = 01 instead of 1
 				if((date.getMonth() + 1) < 10){
-					var search = (date.getDate()) + "/" + "0" + (date.getMonth() + 1) + "/" + date.getFullYear();
+					//Check if day number is less than 10 so we can add a 0 - e.g: 3rd day of the month = 03 instead of 3
+					if(date.getDate() < 10){
+						var search = ("0" + date.getDate()) + "/" + "0" + (date.getMonth() + 1) + "/" + date.getFullYear();
+					}
+					else{
+						var search = (date.getDate()) + "/" + "0" + (date.getMonth() + 1) + "/" + date.getFullYear();
+					}
+					
 				}
 				else{
-					var search = (date.getDate()) + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+					if(date.getDate() < 10){
+						var search = ("0" + date.getDate()) + "/" + "0" + (date.getMonth() + 1) + "/" + date.getFullYear();
+					}
+					else{
+						var search = (date.getDate()) + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+					}
+					
 				}
 
 				var Highlight = dates[search];

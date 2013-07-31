@@ -12,6 +12,9 @@ Version:        1.0.0
 body, input, textarea, a, .nostalgia-accordion.ui-widget{
 	font-size: 13px;
 }
+#start-preloader ul li{
+	background-color: #cdb97c !Important;
+}
 #nostalgia-navigation-menu ul li a, h1, h2, h3, h4, h5, h6{
 	color: #cdb97c;
 }
