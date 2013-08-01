@@ -76,14 +76,23 @@ ul.image-list li{
 .nostalgia-tab-left #nostalgia-tab-footer div.nostalgia-tab-footer-caption{
 	padding-left: 20px;
 }
-#nostalgia-tab-footer ul.social-list li a.social-facebook {
+#nostalgia-tab-footer ul.social-list li a.social-facebook, a.social-facebook {
 background-image: url('images/icon/icon-social/icon_social_facebook.png');
 }
-#nostalgia-tab-footer ul.social-list li a.social-twitter {
+#nostalgia-tab-footer ul.social-list li a.social-twitter, a.social-twitter {
 background-image: url('images/icon/icon-social/icon_social_twitter.png');
 }
-#nostalgia-tab-footer ul.social-list li a.social-soundcloud {
+#nostalgia-tab-footer ul.social-list li a.social-soundcloud, a.social-soundcloud {
 background-image: url('images/icon/icon-social/icon_social_soundcloud.png');
+}
+a.social-facebook, a.social-twitter, a.social-soundcloud{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-color: #cdb97c;
+	padding: 1px 1px 0px 1px;
+	background-position-x: 1px;
 }
 
 /* Twitter Plugin Styles */
