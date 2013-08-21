@@ -172,3 +172,15 @@ div#cff div.cff-item .cff-date{
 #supersized-control{
 	display: none !Important;
 }
+h2.presspack a{
+	color: #cdb97c;
+	font-family: 'Dosis';
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+a.button, #comment_form textarea, #comment_form input[type="text"], #contact_form textarea, #contact_form input[type="text"] {
+background: transparent;
+border: solid 1px #cdb97c;
+}
