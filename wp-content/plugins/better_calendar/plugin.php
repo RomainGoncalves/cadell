@@ -39,6 +39,8 @@ class BetterCalendar {
 	 * Initializes the plugin by setting localization, filters, and administration functions.
 	 */
 	function __construct() {
+
+		add_thickbox();
 		
 		// Load plugin text domain
 		add_action( 'init', array( $this, 'plugin_textdomain' ) );
@@ -245,8 +247,7 @@ class BetterCalendar {
 		//Get all events
 		$events = new WP_Query($args) ;
 
-		$output = '<div id="better_calendar_legend">Keep up to date with all my upcoming gigs & events</div>' ;
-		$output .= '<div id="better_calendar"></div>' ;
+		$output = '<div id="better_calendar"></div>' ;
 		$output .= '<div id="better_calendar_events">' ;
 
 		//Loop through events
@@ -285,7 +286,13 @@ class BetterCalendar {
 
 			if(has_post_thumbnail($event->ID)){
 
+				$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($event->ID), 'large');
+
+				$output .= '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" class="thickbox" >';
+
 				$output .= get_the_post_thumbnail($event->ID, $size = 'featured_preview', $attr = '') ;
+
+				$output .= '</a>' ;
 
 			}
 
