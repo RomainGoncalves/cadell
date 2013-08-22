@@ -39,6 +39,8 @@ class BetterCalendar {
 	 * Initializes the plugin by setting localization, filters, and administration functions.
 	 */
 	function __construct() {
+
+		add_thickbox();
 		
 		// Load plugin text domain
 		add_action( 'init', array( $this, 'plugin_textdomain' ) );

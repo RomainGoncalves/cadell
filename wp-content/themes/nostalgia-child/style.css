@@ -184,3 +184,12 @@ a.button, #comment_form textarea, #comment_form input[type="text"], #contact_for
 background: transparent;
 border: solid 1px #cdb97c;
 }
+.nostalgia-tab-contact h2{
+	font-weight: normal;
+}
+.nostalgia-tab-contact a.presspack{
+	text-decoration: none;
+}
+#nostalgia-navigation-name-box{
+	background: none !Important;
+}

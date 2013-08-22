@@ -19,9 +19,13 @@ div#better_calendar_events div.event{
 	-moz-border-radius: 3px;
 	border-radius: 3px;*/
 }
+div#better_calendar_events span.event_date_start{
+	float: right;
+}
 div#better_calendar_events div.event h2{
 	font-size: 20px;
 	font-weight: bold;
+	float: left;
 }
 div#better_calendar_events div.event img{
 	width: 200px;
@@ -30,12 +34,13 @@ div#better_calendar_events div.event img{
 	margin-bottom: 15px;
 	display: block;
 }
-div#better_calendar_events div.event div.event_date{
-	margin-top: 15px;
+div#better_calendar_events div.event_date{
+	margin-top: 30px;
 }
 div#better_calendar_events div.event div.event_date span.event_where{
-	float: right;
 	max-width: 175px;
+	float: left;
+	clear: both;
 }
 div#better_calendar_events div.event div.event_date span.event_where a{
 	color: #a8a8a8;
@@ -45,6 +50,8 @@ div#better_calendar_events div.event div.event_date span.event_where a:hover{
 }
 div#better_calendar_events div.event p.event_description{
 	text-align: justify;
+	display: block;
+	clear: both;
 }
 div#better_calendar_events div.event table{
 	width: 320px;
@@ -59,4 +66,11 @@ div#better_calendar_events div.event table td,div#better_calendar_events div.eve
 }
 div#better_calendar_events div.event table thead{
 	font-weight: bold;
+}
+div#better_calendar_events div.event a.thickbox{
+	clear: both;
+	margin: auto;
+	width: 200px;
+	display: block;
+	margin-top: 60px;
 }
