@@ -39,8 +39,6 @@ class BetterCalendar {
 	 * Initializes the plugin by setting localization, filters, and administration functions.
 	 */
 	function __construct() {
-
-		add_thickbox();
 		
 		// Load plugin text domain
 		add_action( 'init', array( $this, 'plugin_textdomain' ) );
@@ -247,7 +245,8 @@ class BetterCalendar {
 		//Get all events
 		$events = new WP_Query($args) ;
 
-		$output = '<div id="better_calendar"></div>' ;
+		$output = '<div id="better_calendar_legend">Keep up to date with all my upcoming gigs & events</div>' ;
+		$output .= '<div id="better_calendar"></div>' ;
 		$output .= '<div id="better_calendar_events">' ;
 
 		//Loop through events
@@ -260,15 +259,16 @@ class BetterCalendar {
 			//replace slash by dash as european time is supposed to be with dashes...
 			$date_start = str_replace('/', '-', $meta['event_details_start_date'][0]) ;
 
-			$date_formatted_start = date('D j-m-Y', strtotime($date_start)) ;
+			//Sat Aug 3rd 2013
+			$date_formatted_start = date('D M jS Y', strtotime($date_start)) ;
 
-			$output .= '<h2>'.$event->post_title.'</h2><div class="event_date"><span class="event_date_start" data-date="'.$meta['event_details_start_date'][0].'">'.$date_formatted_start.'</span>' ;
+			$output .= '<h2>'.$event->post_title.'</h2><span class="event_date_start" data-date="'.$meta['event_details_start_date'][0].'">'.$date_formatted_start.'</span><div class="event_date">' ;
 
 			//Check if there's an end date
 			if($meta['event_details_end_date'][0]){
 
 				$date_end = str_replace('/', '-', $meta['event_details_end_date'][0]) ;
-				$date_formatted_end = date('D j-m-Y', strtotime($date_end)) ;
+				$date_formatted_end = date('D M jS Y', strtotime($date_end)) ;
 
 				$output .= ' - <span class="event_date_end">'.$date_formatted_end.'</span>' ;
 
@@ -286,13 +286,7 @@ class BetterCalendar {
 
 			if(has_post_thumbnail($event->ID)){
 
-				$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($event->ID), 'large');
-
-				$output .= '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" class="thickbox" >';
-
 				$output .= get_the_post_thumbnail($event->ID, $size = 'featured_preview', $attr = '') ;
-
-				$output .= '</a>' ;
 
 			}
 

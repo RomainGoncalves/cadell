@@ -156,7 +156,7 @@
 
 div#better_calendar table td.highlight a{
 	border: 1px solid #a8a8a8;
-	background: #cdb97c url('/wp-content/plugins/better-calendar/css/vendors/ui-darkness/images/ui-bg_inset-soft_30_f58400_1x100.png') 50% 50% repeat-x;
+	background: #5B5252 url('/wp-content/plugins/better-calendar/css/vendors/ui-darkness/images/ui-bg_inset-soft_30_f58400_1x100.png') 50% 50% repeat-x;
 	font-weight: bold;
 	color: #000000;
 }
