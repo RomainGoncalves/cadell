@@ -286,7 +286,13 @@ class BetterCalendar {
 
 			if(has_post_thumbnail($event->ID)){
 
+				$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($event->ID), 'large');
+
+				$output .= '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" class="thickbox" >';
+
 				$output .= get_the_post_thumbnail($event->ID, $size = 'featured_preview', $attr = '') ;
+
+				$output .= '</a>' ;
 
 			}
 
