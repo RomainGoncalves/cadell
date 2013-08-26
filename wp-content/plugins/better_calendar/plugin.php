@@ -293,7 +293,7 @@ class BetterCalendar {
 
 				$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($event->ID), 'large');
 
-				$output .= '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" class="thickbox" class="right">';
+				$output .= '<a href="' . $large_image_url[0] . '" title="' . $event->post_title . '" class="thickbox" class="right">';
 
 				$output .= "+ View flyer" ;
 
