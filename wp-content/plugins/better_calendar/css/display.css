@@ -1,5 +1,6 @@
 div#better_calendar{
 	float: left;
+	margin-bottom: 20px;
 }
 div#better_calendar table td{
 	border-top: none;
@@ -20,12 +21,12 @@ div#better_calendar_events div.event{
 	border-radius: 3px;*/
 }
 div#better_calendar_events span.event_date_start{
-	float: right;
 }
 div#better_calendar_events div.event h2{
 	font-size: 20px;
 	font-weight: bold;
 	float: left;
+	margin-bottom: 10px;
 }
 div#better_calendar_events div.event img{
 	width: 200px;
@@ -35,12 +36,12 @@ div#better_calendar_events div.event img{
 	display: block;
 }
 div#better_calendar_events div.event_date{
-	margin-top: 30px;
+	float: right;
 }
-div#better_calendar_events div.event div.event_date span.event_where{
-	max-width: 175px;
+div#better_calendar_events div.event span.event_where{
 	float: left;
 	clear: both;
+	margin-top: 15px;
 }
 div#better_calendar_events div.event div.event_date span.event_where a{
 	color: #a8a8a8;
@@ -70,7 +71,7 @@ div#better_calendar_events div.event table thead{
 div#better_calendar_events div.event a.thickbox{
 	clear: both;
 	margin: auto;
-	width: 200px;
 	display: block;
-	margin-top: 60px;
+	float: right;
+	margin-top: -19px;
 }

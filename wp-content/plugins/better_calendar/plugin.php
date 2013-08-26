@@ -263,7 +263,8 @@ class BetterCalendar {
 			//Sat Aug 3rd 2013
 			$date_formatted_start = date('D M jS Y', strtotime($date_start)) ;
 
-			$output .= '<h2>'.$event->post_title.'</h2><span class="event_date_start" data-date="'.$meta['event_details_start_date'][0].'">'.$date_formatted_start.'</span><div class="event_date">' ;
+			$output .= '<h2>'.$event->post_title.'</h2>' ;
+			$output .= '<div class="event_date"><span class="event_date_start" data-date="'.$meta['event_details_start_date'][0].'">'.$date_formatted_start.'</span>' ;
 
 			//Check if there's an end date
 			if($meta['event_details_end_date'][0]){
@@ -272,32 +273,39 @@ class BetterCalendar {
 				$date_formatted_end = date('D M jS Y', strtotime($date_end)) ;
 
 				$output .= ' - <span class="event_date_end">'.$date_formatted_end.'</span>' ;
+				$output .= '</div>' ;
 
+			}
+			else{
+				$output .= '</div>' ;//if no thumbnail still close the event date div
 			}
 
 			if($meta['event_details_website'][0]){
 
-				$output .= '<span class="event_where">@ <a href="http://'.$meta['event_details_website'][0].'" title="See the title">'.$meta['event_details_where'][0].'</a></span></div>' ;
+				$output .= '<span class="event_where">@ <a href="http://'.$meta['event_details_website'][0].'" title="See the title">'.$meta['event_details_where'][0].'</a></span>' ;
 
 			}
 			else{
-				$output .= '<span class="event_where">@ '.$meta['event_details_where'][0].'</span></div>' ;
+				$output .= '<span class="event_where">@ '.$meta['event_details_where'][0].'</span>' ;
 			}
-			
 
 			if(has_post_thumbnail($event->ID)){
 
 				$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($event->ID), 'large');
 
-				$output .= '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" class="thickbox" >';
+				$output .= '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" class="thickbox" class="right">';
 
-				$output .= get_the_post_thumbnail($event->ID, $size = 'featured_preview', $attr = '') ;
+				$output .= "+ View flyer" ;
+
+				// $output .= get_the_post_thumbnail($event->ID, $size = 'featured_preview', $attr = '') ;
 
 				$output .= '</a>' ;
 
 			}
 
-			$output .= '<p class="event_description">'.$event->post_content.'</p>' ;
+			if($event->post_content){
+				$output .= '<p class="event_description">'.$event->post_content.'</p>' ;
+			}
 
 			if( $meta['event_details_starts_at'][0] || $meta['event_details_ends_at'][0] || $meta['event_details_entry_fee'][0] || $meta['event_details_rsvp'][0]){
 			
@@ -363,6 +371,7 @@ class BetterCalendar {
 
 			}
 
+			$output .= '<div class="clear"></div>' ;
 			$output .= '</div>' ;
 						
 		}

@@ -193,3 +193,6 @@ border: solid 1px #cdb97c;
 #nostalgia-navigation-name-box{
 	background: none !Important;
 }
+.clear{
+	clear: both;
+}
