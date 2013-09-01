@@ -41,7 +41,6 @@ div#better_calendar_events div.event_date{
 div#better_calendar_events div.event span.event_where{
 	float: left;
 	clear: both;
-	margin-top: 15px;
 }
 div#better_calendar_events div.event div.event_date span.event_where a{
 	color: #a8a8a8;
