@@ -95,6 +95,10 @@ a.social-facebook, a.social-twitter, a.social-soundcloud{
 	background-position-x: 1px;
 }
 
+#nostalgia-tab-content div.jspTrack .jspDrag{
+	background-color: #cdb97c;
+}
+
 /* Twitter Plugin Styles */
 .PI_SimpleTwitterTweets h2.widgettitle{
 	background: black;
